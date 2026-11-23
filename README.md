@@ -12,6 +12,8 @@ HumanColorTouch_skill/
 ├── SYSTEM_PROMPT.md                 # Standalone prompt for any LLM without a skill loader
 ├── README.md                        # Repository documentation
 ├── LICENSE                          # MIT License
+├── assets/
+│   └── swatches/                    # SVG color frames for all 48 palettes
 ├── palettes/
 │   ├── palettes.json                # All 48 palettes with RGB, luminance, tags, and semantic roles
 │   └── palettes.css                 # Drop-in CSS variables for every palette (light & dark modes)
@@ -26,7 +28,7 @@ HumanColorTouch_skill/
 
 ## Quick Start
 
-### 1. Use as an AI Agent Skill (Claude Code, Gemini, OpenClaw, Agent Skills Spec)
+### Use as an AI Agent Skill (Claude Code, Gemini, OpenClaw, Agent Skills Spec)
 Clone this repository into your agent's skills directory:
 
 ```bash
@@ -35,37 +37,41 @@ git clone https://github.com/DangerousAngel/HumanColorTouch_skill.git
 
 Point your agent to `SKILL.md`. The agent will automatically reference `palettes/palettes.json`, `references/PALETTE_CATALOG.md`, and `templates/ui_tokens_template.css` when generating interfaces, dashboards, or visual layouts.
 
-### 2. Use with Any LLM (ChatGPT, Gemini Gems, Cursor `.cursorrules`)
-Copy the prompt block from `SYSTEM_PROMPT.md` into your system instructions or `.cursorrules` file.
-
-### 3. Query & Export Palettes via CLI
-No external Python packages are required:
-
-```bash
-# List all available aesthetic categories
-python scripts/select_palette.py --list-categories
-
-# Find oceanic/tech palettes
-python scripts/select_palette.py --category oceanic-tech
-
-# Export Deep Sea as dark-mode CSS variables
-python scripts/select_palette.py --slug deep-sea --mode dark --format css
-
-# Export Olive Garden Feast as Tailwind config
-python scripts/select_palette.py --slug olive-garden-feast --mode light --format tailwind
-```
-
 ## Included Categories
 
-- **Oceanic & Tech**: `Deep Sea`, `Ocean Blue Serenity`, `Coastal Blues`, `Deep Ocean Blue`, `Ocean Blue Adventure`, `Sky Blue Freshness`, `Blue Gradient`
-- **Organic & Earthy**: `Olive Garden Feast`, `Meadow Green`, `Leafy Green Garden`, `Fresh Greens`, `Warm Neutral Tones`, `Earthy Tones`, `Earthy Green`, `Autumn Harvest`
-- **Minimal & Neutral**: `Neutral Harmony Bliss`, `Light Steel`, `Golden Summer Fields`, `Soft Sand`, `Soft Lavender`, `Monochrome Beach`, `Vintage Charm`
-- **Warm & Dramatic**: `Ocean Sunset`, `Dark Sunset`, `Fiery Red Sunset`, `Crimson Hues`, `Bold Berry`
-- **Energetic & Modern**: `Refreshing Summer Fun`, `Summer Dream`, `Golden Summer Glow`, `Tropical Sunrise`, `Sunny Beach Day`
-- **Luxury & High-Contrast**: `Black & Gold Elegance`, `Golden Twilight`, `Vivid Nightfall`, `Velvet Plum & Rose`
-- **Editorial & Bold**: `Fiery Ocean`, `Summer Ocean Breeze`, `Espresso & Cyan Pop`
-- **Soft Pastel & Playful**: `Pastel Dreamland Adventure`, `Soft Pink Delight`, `Pastel Serenity`, `Candy Pop Confetti`
+### Oceanic & Tech
+
+![](assets/swatches/ocean-blue-serenity.svg) ![](assets/swatches/sky-blue-freshness.svg) ![](assets/swatches/deep-sea.svg) ![](assets/swatches/coastal-blues.svg) ![](assets/swatches/ocean-blue-adventure.svg) ![](assets/swatches/deep-ocean-blue.svg) ![](assets/swatches/blue-gradient.svg)
+
+### Organic & Earthy
+
+![](assets/swatches/olive-garden-feast.svg) ![](assets/swatches/terracotta-rose-sage.svg) ![](assets/swatches/meadow-green.svg) ![](assets/swatches/leafy-green-garden.svg) ![](assets/swatches/fresh-greens.svg) ![](assets/swatches/warm-neutral-tones.svg) ![](assets/swatches/earthy-tones.svg) ![](assets/swatches/earthy-tones-2.svg) ![](assets/swatches/autumn-harvest.svg) ![](assets/swatches/earthy-green.svg)
+
+### Minimal & Neutral
+
+![](assets/swatches/neutral-harmony-bliss.svg) ![](assets/swatches/light-steel.svg) ![](assets/swatches/golden-summer-fields.svg) ![](assets/swatches/soft-sand.svg) ![](assets/swatches/soft-lavender.svg) ![](assets/swatches/muted-slate-stone.svg) ![](assets/swatches/monochrome-beach.svg) ![](assets/swatches/vintage-charm.svg)
+
+### Warm & Dramatic
+
+![](assets/swatches/ocean-sunset.svg) ![](assets/swatches/dark-sunset.svg) ![](assets/swatches/ocean-sunset-2.svg) ![](assets/swatches/fiery-red-sunset.svg) ![](assets/swatches/crimson-hues.svg) ![](assets/swatches/bold-berry.svg)
+
+### Energetic & Modern
+
+![](assets/swatches/refreshing-summer-fun.svg) ![](assets/swatches/summer-dream.svg) ![](assets/swatches/golden-summer-glow.svg) ![](assets/swatches/botanical-citrus-plum.svg) ![](assets/swatches/tropical-sunrise.svg) ![](assets/swatches/sunny-beach-day.svg)
+
+### Luxury & High-Contrast
+
+![](assets/swatches/black-gold-elegance.svg) ![](assets/swatches/velvet-plum-rose.svg) ![](assets/swatches/vivid-nightfall.svg) ![](assets/swatches/golden-twilight.svg)
+
+### Editorial & Bold
+
+![](assets/swatches/fiery-ocean.svg) ![](assets/swatches/summer-ocean-breeze.svg) ![](assets/swatches/espresso-cyan-pop.svg)
+
+### Soft Pastel & Playful
+
+![](assets/swatches/pastel-dreamland-adventure.svg) ![](assets/swatches/soft-pink-delight.svg) ![](assets/swatches/pastel-serenity.svg) ![](assets/swatches/candy-pop-confetti.svg)
 
 ## License
 
 MIT License — Copyright (c) 2026 DangerousAngel.
+
