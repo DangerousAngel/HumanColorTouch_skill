@@ -1,0 +1,75 @@
+/*
+ * HumanColorTouch — Semantic UI Token Template
+ * Developed by DangerousAngel (https://github.com/DangerousAngel)
+ *
+ * Pair this file with palettes/palettes.css and set:
+ *   <html data-hct-theme="deep-sea" data-hct-mode="dark">
+ */
+
+:root {
+  /* Fallback defaults (Neutral Harmony Bliss) */
+  --hct-bg: #F4F1DE;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #3D405B;
+  --hct-accent: #E07A5F;
+  --hct-text: #3D405B;
+
+  /* Derived structural tokens */
+  --hct-text-muted: color-mix(in srgb, var(--hct-text) 68%, transparent);
+  --hct-border: color-mix(in srgb, var(--hct-text) 14%, transparent);
+  --hct-primary-hover: color-mix(in srgb, var(--hct-primary) 86%, black);
+  --hct-accent-soft: color-mix(in srgb, var(--hct-accent) 16%, transparent);
+  --hct-glass-bg: color-mix(in srgb, var(--hct-surface) 72%, transparent);
+  --hct-radius: 12px;
+  --hct-shadow: 0 8px 24px color-mix(in srgb, var(--hct-text) 8%, transparent);
+}
+
+body {
+  background-color: var(--hct-bg);
+  color: var(--hct-text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+.hct-card {
+  background-color: var(--hct-surface);
+  border: 1px solid var(--hct-border);
+  border-radius: var(--hct-radius);
+  box-shadow: var(--hct-shadow);
+  padding: 1.5rem;
+}
+
+.hct-card--glass {
+  background: var(--hct-glass-bg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--hct-border);
+  border-radius: var(--hct-radius);
+}
+
+.hct-btn-primary {
+  background-color: var(--hct-primary);
+  color: var(--hct-bg);
+  border: none;
+  border-radius: 8px;
+  padding: 0.65rem 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.hct-btn-primary:hover {
+  background-color: var(--hct-primary-hover);
+}
+
+.hct-badge {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--hct-accent-soft);
+  color: var(--hct-accent);
+  border: 1px solid color-mix(in srgb, var(--hct-accent) 30%, transparent);
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}

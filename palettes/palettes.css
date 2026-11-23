@@ -1,0 +1,1064 @@
+/*
+ * HumanColorTouch Skill — Curated Human-Eye Color Palettes
+ * Developed by DangerousAngel (https://github.com/DangerousAngel)
+ * Usage: Set data-hct-theme="<slug>" on <html> or any container element.
+ */
+
+/* 1. Fiery Ocean (editorial-bold | warm | mode: both) */
+[data-hct-theme="fiery-ocean"] {
+  --hct-swatch-1: #780000;
+  --hct-swatch-2: #C1121F;
+  --hct-swatch-3: #FDF0D5;
+  --hct-swatch-4: #003049;
+  --hct-swatch-5: #669BBC;
+  --hct-bg: #FDF0D5;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #003049;
+  --hct-accent: #780000;
+  --hct-text: #003049;
+}
+[data-hct-theme="fiery-ocean"][data-hct-mode="dark"] {
+  --hct-bg: #003049;
+  --hct-surface: #780000;
+  --hct-primary: #780000;
+  --hct-accent: #003049;
+  --hct-text: #FDF0D5;
+}
+
+/* 2. Olive Garden Feast (organic-earthy | warm | mode: both) */
+[data-hct-theme="olive-garden-feast"] {
+  --hct-swatch-1: #606C38;
+  --hct-swatch-2: #283618;
+  --hct-swatch-3: #FEFAE0;
+  --hct-swatch-4: #DDA15E;
+  --hct-swatch-5: #BC6C25;
+  --hct-bg: #FEFAE0;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #283618;
+  --hct-accent: #BC6C25;
+  --hct-text: #283618;
+}
+[data-hct-theme="olive-garden-feast"][data-hct-mode="dark"] {
+  --hct-bg: #283618;
+  --hct-surface: #606C38;
+  --hct-primary: #BC6C25;
+  --hct-accent: #283618;
+  --hct-text: #FEFAE0;
+}
+
+/* 3. Ocean Sunset (warm-dramatic | warm | mode: both) */
+[data-hct-theme="ocean-sunset"] {
+  --hct-swatch-1: #001219;
+  --hct-swatch-2: #005F73;
+  --hct-swatch-3: #0A9396;
+  --hct-swatch-4: #94D2BD;
+  --hct-swatch-5: #E9D8A6;
+  --hct-swatch-6: #EE9B00;
+  --hct-swatch-7: #CA6702;
+  --hct-swatch-8: #BB3E03;
+  --hct-swatch-9: #AE2012;
+  --hct-swatch-10: #9B2226;
+  --hct-bg: #E9D8A6;
+  --hct-surface: #94D2BD;
+  --hct-primary: #CA6702;
+  --hct-accent: #005F73;
+  --hct-text: #001219;
+}
+[data-hct-theme="ocean-sunset"][data-hct-mode="dark"] {
+  --hct-bg: #001219;
+  --hct-surface: #9B2226;
+  --hct-primary: #005F73;
+  --hct-accent: #CA6702;
+  --hct-text: #E9D8A6;
+}
+
+/* 4. Ocean Blue Serenity (oceanic-tech | cool | mode: both) */
+[data-hct-theme="ocean-blue-serenity"] {
+  --hct-swatch-1: #03045E;
+  --hct-swatch-2: #023E8A;
+  --hct-swatch-3: #0077B6;
+  --hct-swatch-4: #0096C7;
+  --hct-swatch-5: #00B4D8;
+  --hct-swatch-6: #48CAE4;
+  --hct-swatch-7: #90E0EF;
+  --hct-swatch-8: #ADE8F4;
+  --hct-swatch-9: #CAF0F8;
+  --hct-bg: #CAF0F8;
+  --hct-surface: #ADE8F4;
+  --hct-primary: #00B4D8;
+  --hct-accent: #0077B6;
+  --hct-text: #03045E;
+}
+[data-hct-theme="ocean-blue-serenity"][data-hct-mode="dark"] {
+  --hct-bg: #03045E;
+  --hct-surface: #023E8A;
+  --hct-primary: #0077B6;
+  --hct-accent: #00B4D8;
+  --hct-text: #CAF0F8;
+}
+
+/* 5. Terracotta Rose & Sage (organic-earthy | warm | mode: both) */
+[data-hct-theme="terracotta-rose-sage"] {
+  --hct-swatch-1: #724319;
+  --hct-swatch-2: #D88180;
+  --hct-swatch-3: #F7B1B0;
+  --hct-swatch-4: #FEEAC7;
+  --hct-swatch-5: #CAD182;
+  --hct-bg: #FEEAC7;
+  --hct-surface: #CAD182;
+  --hct-primary: #F7B1B0;
+  --hct-accent: #D88180;
+  --hct-text: #724319;
+}
+[data-hct-theme="terracotta-rose-sage"][data-hct-mode="dark"] {
+  --hct-bg: #724319;
+  --hct-surface: #1C222B;
+  --hct-primary: #D88180;
+  --hct-accent: #F7B1B0;
+  --hct-text: #FEEAC7;
+}
+
+/* 6. Refreshing Summer Fun (energetic-modern | warm | mode: dark) */
+[data-hct-theme="refreshing-summer-fun"] {
+  --hct-swatch-1: #8ECAE6;
+  --hct-swatch-2: #219EBC;
+  --hct-swatch-3: #023047;
+  --hct-swatch-4: #FFB703;
+  --hct-swatch-5: #FB8500;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #219EBC;
+  --hct-accent: #FB8500;
+  --hct-text: #023047;
+}
+[data-hct-theme="refreshing-summer-fun"][data-hct-mode="dark"] {
+  --hct-bg: #023047;
+  --hct-surface: #1C222B;
+  --hct-primary: #FB8500;
+  --hct-accent: #219EBC;
+  --hct-text: #FFB703;
+}
+
+/* 7. Summer Dream (energetic-modern | balanced | mode: both) */
+[data-hct-theme="summer-dream"] {
+  --hct-swatch-1: #0081A7;
+  --hct-swatch-2: #00AFB9;
+  --hct-swatch-3: #FDFCDC;
+  --hct-swatch-4: #FED9B7;
+  --hct-swatch-5: #F07167;
+  --hct-bg: #FDFCDC;
+  --hct-surface: #FED9B7;
+  --hct-primary: #FED9B7;
+  --hct-accent: #00AFB9;
+  --hct-text: #1A1D21;
+}
+[data-hct-theme="summer-dream"][data-hct-mode="dark"] {
+  --hct-bg: #11161D;
+  --hct-surface: #1C222B;
+  --hct-primary: #00AFB9;
+  --hct-accent: #FED9B7;
+  --hct-text: #FDFCDC;
+}
+
+/* 8. Meadow Green (organic-earthy | cool | mode: both) */
+[data-hct-theme="meadow-green"] {
+  --hct-swatch-1: #D9ED92;
+  --hct-swatch-2: #B5E48C;
+  --hct-swatch-3: #99D98C;
+  --hct-swatch-4: #76C893;
+  --hct-swatch-5: #52B69A;
+  --hct-swatch-6: #34A0A4;
+  --hct-swatch-7: #168AAD;
+  --hct-swatch-8: #1A759F;
+  --hct-swatch-9: #1E6091;
+  --hct-swatch-10: #184E77;
+  --hct-bg: #D9ED92;
+  --hct-surface: #B5E48C;
+  --hct-primary: #34A0A4;
+  --hct-accent: #168AAD;
+  --hct-text: #184E77;
+}
+[data-hct-theme="meadow-green"][data-hct-mode="dark"] {
+  --hct-bg: #184E77;
+  --hct-surface: #1E6091;
+  --hct-primary: #168AAD;
+  --hct-accent: #34A0A4;
+  --hct-text: #D9ED92;
+}
+
+/* 9. Pastel Dreamland Adventure (soft-pastel | balanced | mode: light) */
+[data-hct-theme="pastel-dreamland-adventure"] {
+  --hct-swatch-1: #CDB4DB;
+  --hct-swatch-2: #FFC8DD;
+  --hct-swatch-3: #FFAFCC;
+  --hct-swatch-4: #BDE0FE;
+  --hct-swatch-5: #A2D2FF;
+  --hct-bg: #BDE0FE;
+  --hct-surface: #FFC8DD;
+  --hct-primary: #FFC8DD;
+  --hct-accent: #A2D2FF;
+  --hct-text: #1A1D21;
+}
+[data-hct-theme="pastel-dreamland-adventure"][data-hct-mode="dark"] {
+  --hct-bg: #11161D;
+  --hct-surface: #1C222B;
+  --hct-primary: #A2D2FF;
+  --hct-accent: #FFC8DD;
+  --hct-text: #BDE0FE;
+}
+
+/* 10. Summer Ocean Breeze (editorial-bold | balanced | mode: both) */
+[data-hct-theme="summer-ocean-breeze"] {
+  --hct-swatch-1: #E63946;
+  --hct-swatch-2: #F1FAEE;
+  --hct-swatch-3: #A8DADC;
+  --hct-swatch-4: #457B9D;
+  --hct-swatch-5: #1D3557;
+  --hct-bg: #F1FAEE;
+  --hct-surface: #A8DADC;
+  --hct-primary: #457B9D;
+  --hct-accent: #E63946;
+  --hct-text: #1D3557;
+}
+[data-hct-theme="summer-ocean-breeze"][data-hct-mode="dark"] {
+  --hct-bg: #1D3557;
+  --hct-surface: #457B9D;
+  --hct-primary: #E63946;
+  --hct-accent: #457B9D;
+  --hct-text: #F1FAEE;
+}
+
+/* 11. Dark Sunset (warm-dramatic | warm | mode: both) */
+[data-hct-theme="dark-sunset"] {
+  --hct-swatch-1: #335C67;
+  --hct-swatch-2: #FFF3B0;
+  --hct-swatch-3: #E09F3E;
+  --hct-swatch-4: #9E2A2B;
+  --hct-swatch-5: #540B0E;
+  --hct-bg: #FFF3B0;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #E09F3E;
+  --hct-accent: #9E2A2B;
+  --hct-text: #540B0E;
+}
+[data-hct-theme="dark-sunset"][data-hct-mode="dark"] {
+  --hct-bg: #540B0E;
+  --hct-surface: #9E2A2B;
+  --hct-primary: #9E2A2B;
+  --hct-accent: #E09F3E;
+  --hct-text: #FFF3B0;
+}
+
+/* 12. Soft Pink Delight (soft-pastel | warm | mode: light) */
+[data-hct-theme="soft-pink-delight"] {
+  --hct-swatch-1: #FFE5EC;
+  --hct-swatch-2: #FFC2D1;
+  --hct-swatch-3: #FFB3C6;
+  --hct-swatch-4: #FF8FAB;
+  --hct-swatch-5: #FB6F92;
+  --hct-bg: #FFE5EC;
+  --hct-surface: #FFC2D1;
+  --hct-primary: #FFB3C6;
+  --hct-accent: #FF8FAB;
+  --hct-text: #1A1D21;
+}
+[data-hct-theme="soft-pink-delight"][data-hct-mode="dark"] {
+  --hct-bg: #11161D;
+  --hct-surface: #1C222B;
+  --hct-primary: #FF8FAB;
+  --hct-accent: #FFB3C6;
+  --hct-text: #FFE5EC;
+}
+
+/* 13. Neutral Harmony Bliss (minimal-neutral | warm | mode: both) */
+[data-hct-theme="neutral-harmony-bliss"] {
+  --hct-swatch-1: #F4F1DE;
+  --hct-swatch-2: #E07A5F;
+  --hct-swatch-3: #3D405B;
+  --hct-swatch-4: #81B29A;
+  --hct-swatch-5: #F2CC8F;
+  --hct-bg: #F4F1DE;
+  --hct-surface: #F2CC8F;
+  --hct-primary: #81B29A;
+  --hct-accent: #E07A5F;
+  --hct-text: #3D405B;
+}
+[data-hct-theme="neutral-harmony-bliss"][data-hct-mode="dark"] {
+  --hct-bg: #3D405B;
+  --hct-surface: #1C222B;
+  --hct-primary: #E07A5F;
+  --hct-accent: #81B29A;
+  --hct-text: #F4F1DE;
+}
+
+/* 14. Leafy Green Garden (organic-earthy | warm | mode: both) */
+[data-hct-theme="leafy-green-garden"] {
+  --hct-swatch-1: #132A13;
+  --hct-swatch-2: #31572C;
+  --hct-swatch-3: #4F772D;
+  --hct-swatch-4: #90A955;
+  --hct-swatch-5: #ECF39E;
+  --hct-bg: #ECF39E;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #31572C;
+  --hct-accent: #4F772D;
+  --hct-text: #132A13;
+}
+[data-hct-theme="leafy-green-garden"][data-hct-mode="dark"] {
+  --hct-bg: #132A13;
+  --hct-surface: #31572C;
+  --hct-primary: #4F772D;
+  --hct-accent: #31572C;
+  --hct-text: #ECF39E;
+}
+
+/* 15. Golden Summer Glow (energetic-modern | warm | mode: both) */
+[data-hct-theme="golden-summer-glow"] {
+  --hct-swatch-1: #0D3B66;
+  --hct-swatch-2: #FAF0CA;
+  --hct-swatch-3: #F4D35E;
+  --hct-swatch-4: #EE964B;
+  --hct-swatch-5: #F95738;
+  --hct-bg: #FAF0CA;
+  --hct-surface: #F4D35E;
+  --hct-primary: #F4D35E;
+  --hct-accent: #F95738;
+  --hct-text: #0D3B66;
+}
+[data-hct-theme="golden-summer-glow"][data-hct-mode="dark"] {
+  --hct-bg: #0D3B66;
+  --hct-surface: #1C222B;
+  --hct-primary: #F95738;
+  --hct-accent: #F4D35E;
+  --hct-text: #FAF0CA;
+}
+
+/* 16. Light Steel (minimal-neutral | balanced | mode: both) */
+[data-hct-theme="light-steel"] {
+  --hct-swatch-1: #F8F9FA;
+  --hct-swatch-2: #E9ECEF;
+  --hct-swatch-3: #DEE2E6;
+  --hct-swatch-4: #CED4DA;
+  --hct-swatch-5: #ADB5BD;
+  --hct-swatch-6: #6C757D;
+  --hct-swatch-7: #495057;
+  --hct-swatch-8: #343A40;
+  --hct-swatch-9: #212529;
+  --hct-bg: #F8F9FA;
+  --hct-surface: #E9ECEF;
+  --hct-primary: #ADB5BD;
+  --hct-accent: #343A40;
+  --hct-text: #212529;
+}
+[data-hct-theme="light-steel"][data-hct-mode="dark"] {
+  --hct-bg: #212529;
+  --hct-surface: #343A40;
+  --hct-primary: #343A40;
+  --hct-accent: #ADB5BD;
+  --hct-text: #F8F9FA;
+}
+
+/* 17. Fresh Greens (organic-earthy | warm | mode: both) */
+[data-hct-theme="fresh-greens"] {
+  --hct-swatch-1: #386641;
+  --hct-swatch-2: #6A994E;
+  --hct-swatch-3: #A7C957;
+  --hct-swatch-4: #F2E8CF;
+  --hct-swatch-5: #BC4749;
+  --hct-bg: #F2E8CF;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #6A994E;
+  --hct-accent: #BC4749;
+  --hct-text: #386641;
+}
+[data-hct-theme="fresh-greens"][data-hct-mode="dark"] {
+  --hct-bg: #386641;
+  --hct-surface: #BC4749;
+  --hct-primary: #BC4749;
+  --hct-accent: #6A994E;
+  --hct-text: #F2E8CF;
+}
+
+/* 18. Sky Blue Freshness (oceanic-tech | balanced | mode: both) */
+[data-hct-theme="sky-blue-freshness"] {
+  --hct-swatch-1: #05668D;
+  --hct-swatch-2: #427AA1;
+  --hct-swatch-3: #EBF2FA;
+  --hct-swatch-4: #679436;
+  --hct-swatch-5: #A5BE00;
+  --hct-bg: #EBF2FA;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #427AA1;
+  --hct-accent: #A5BE00;
+  --hct-text: #05668D;
+}
+[data-hct-theme="sky-blue-freshness"][data-hct-mode="dark"] {
+  --hct-bg: #05668D;
+  --hct-surface: #427AA1;
+  --hct-primary: #A5BE00;
+  --hct-accent: #427AA1;
+  --hct-text: #EBF2FA;
+}
+
+/* 19. Golden Summer Fields (minimal-neutral | warm | mode: light) */
+[data-hct-theme="golden-summer-fields"] {
+  --hct-swatch-1: #CCD5AE;
+  --hct-swatch-2: #E9EDC9;
+  --hct-swatch-3: #FEFAE0;
+  --hct-swatch-4: #FAEDCD;
+  --hct-swatch-5: #D4A373;
+  --hct-bg: #FEFAE0;
+  --hct-surface: #FAEDCD;
+  --hct-primary: #FAEDCD;
+  --hct-accent: #CCD5AE;
+  --hct-text: #1A1D21;
+}
+[data-hct-theme="golden-summer-fields"][data-hct-mode="dark"] {
+  --hct-bg: #11161D;
+  --hct-surface: #1C222B;
+  --hct-primary: #CCD5AE;
+  --hct-accent: #FAEDCD;
+  --hct-text: #FEFAE0;
+}
+
+/* 20. Ocean Sunset (2) (warm-dramatic | warm | mode: dark) */
+[data-hct-theme="ocean-sunset-2"] {
+  --hct-swatch-1: #355070;
+  --hct-swatch-2: #6D597A;
+  --hct-swatch-3: #B56576;
+  --hct-swatch-4: #E56B6F;
+  --hct-swatch-5: #EAAC8B;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #6D597A;
+  --hct-accent: #E56B6F;
+  --hct-text: #355070;
+}
+[data-hct-theme="ocean-sunset-2"][data-hct-mode="dark"] {
+  --hct-bg: #355070;
+  --hct-surface: #6D597A;
+  --hct-primary: #E56B6F;
+  --hct-accent: #6D597A;
+  --hct-text: #F4F5F7;
+}
+
+/* 21. Deep Sea (oceanic-tech | cool | mode: both) */
+[data-hct-theme="deep-sea"] {
+  --hct-swatch-1: #0D1B2A;
+  --hct-swatch-2: #1B263B;
+  --hct-swatch-3: #415A77;
+  --hct-swatch-4: #778DA9;
+  --hct-swatch-5: #E0E1DD;
+  --hct-bg: #E0E1DD;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #415A77;
+  --hct-accent: #1B263B;
+  --hct-text: #0D1B2A;
+}
+[data-hct-theme="deep-sea"][data-hct-mode="dark"] {
+  --hct-bg: #0D1B2A;
+  --hct-surface: #1B263B;
+  --hct-primary: #1B263B;
+  --hct-accent: #415A77;
+  --hct-text: #E0E1DD;
+}
+
+/* 22. Soft Sand (minimal-neutral | balanced | mode: light) */
+[data-hct-theme="soft-sand"] {
+  --hct-swatch-1: #EDEDE9;
+  --hct-swatch-2: #D6CCC2;
+  --hct-swatch-3: #F5EBE0;
+  --hct-swatch-4: #E3D5CA;
+  --hct-swatch-5: #D5BDAF;
+  --hct-bg: #EDEDE9;
+  --hct-surface: #F5EBE0;
+  --hct-primary: #F5EBE0;
+  --hct-accent: #E3D5CA;
+  --hct-text: #1A1D21;
+}
+[data-hct-theme="soft-sand"][data-hct-mode="dark"] {
+  --hct-bg: #11161D;
+  --hct-surface: #1C222B;
+  --hct-primary: #E3D5CA;
+  --hct-accent: #F5EBE0;
+  --hct-text: #EDEDE9;
+}
+
+/* 23. Warm Neutral Tones (organic-earthy | warm | mode: dark) */
+[data-hct-theme="warm-neutral-tones"] {
+  --hct-swatch-1: #582F0E;
+  --hct-swatch-2: #7F4F24;
+  --hct-swatch-3: #936639;
+  --hct-swatch-4: #A68A64;
+  --hct-swatch-5: #B6AD90;
+  --hct-swatch-6: #C2C5AA;
+  --hct-swatch-7: #A4AC86;
+  --hct-swatch-8: #656D4A;
+  --hct-swatch-9: #414833;
+  --hct-swatch-10: #333D29;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #A4AC86;
+  --hct-accent: #7F4F24;
+  --hct-text: #582F0E;
+}
+[data-hct-theme="warm-neutral-tones"][data-hct-mode="dark"] {
+  --hct-bg: #582F0E;
+  --hct-surface: #333D29;
+  --hct-primary: #7F4F24;
+  --hct-accent: #A4AC86;
+  --hct-text: #C2C5AA;
+}
+
+/* 24. Coastal Blues (oceanic-tech | cool | mode: dark) */
+[data-hct-theme="coastal-blues"] {
+  --hct-swatch-1: #012A4A;
+  --hct-swatch-2: #013A63;
+  --hct-swatch-3: #01497C;
+  --hct-swatch-4: #014F86;
+  --hct-swatch-5: #2A6F97;
+  --hct-swatch-6: #2C7DA0;
+  --hct-swatch-7: #468FAF;
+  --hct-swatch-8: #61A5C2;
+  --hct-swatch-9: #89C2D9;
+  --hct-swatch-10: #A9D6E5;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #2C7DA0;
+  --hct-accent: #014F86;
+  --hct-text: #012A4A;
+}
+[data-hct-theme="coastal-blues"][data-hct-mode="dark"] {
+  --hct-bg: #012A4A;
+  --hct-surface: #013A63;
+  --hct-primary: #014F86;
+  --hct-accent: #2C7DA0;
+  --hct-text: #A9D6E5;
+}
+
+/* 25. Fiery Red Sunset (warm-dramatic | warm | mode: dark) */
+[data-hct-theme="fiery-red-sunset"] {
+  --hct-swatch-1: #03071E;
+  --hct-swatch-2: #370617;
+  --hct-swatch-3: #6A040F;
+  --hct-swatch-4: #9D0208;
+  --hct-swatch-5: #D00000;
+  --hct-swatch-6: #DC2F02;
+  --hct-swatch-7: #E85D04;
+  --hct-swatch-8: #F48C06;
+  --hct-swatch-9: #FAA307;
+  --hct-swatch-10: #FFBA08;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #DC2F02;
+  --hct-accent: #D00000;
+  --hct-text: #03071E;
+}
+[data-hct-theme="fiery-red-sunset"][data-hct-mode="dark"] {
+  --hct-bg: #03071E;
+  --hct-surface: #370617;
+  --hct-primary: #D00000;
+  --hct-accent: #DC2F02;
+  --hct-text: #FFBA08;
+}
+
+/* 26. Earthy Tones (organic-earthy | warm | mode: both) */
+[data-hct-theme="earthy-tones"] {
+  --hct-swatch-1: #2C6E49;
+  --hct-swatch-2: #4C956C;
+  --hct-swatch-3: #FEFEE3;
+  --hct-swatch-4: #FFC9B9;
+  --hct-swatch-5: #D68C45;
+  --hct-bg: #FEFEE3;
+  --hct-surface: #FFC9B9;
+  --hct-primary: #4C956C;
+  --hct-accent: #D68C45;
+  --hct-text: #2C6E49;
+}
+[data-hct-theme="earthy-tones"][data-hct-mode="dark"] {
+  --hct-bg: #11161D;
+  --hct-surface: #4C956C;
+  --hct-primary: #D68C45;
+  --hct-accent: #4C956C;
+  --hct-text: #FEFEE3;
+}
+
+/* 27. Black & Gold Elegance (luxury-contrast | warm | mode: both) */
+[data-hct-theme="black-gold-elegance"] {
+  --hct-swatch-1: #000000;
+  --hct-swatch-2: #14213D;
+  --hct-swatch-3: #FCA311;
+  --hct-swatch-4: #E5E5E5;
+  --hct-swatch-5: #FFFFFF;
+  --hct-bg: #FFFFFF;
+  --hct-surface: #E5E5E5;
+  --hct-primary: #14213D;
+  --hct-accent: #FCA311;
+  --hct-text: #000000;
+}
+[data-hct-theme="black-gold-elegance"][data-hct-mode="dark"] {
+  --hct-bg: #000000;
+  --hct-surface: #14213D;
+  --hct-primary: #FCA311;
+  --hct-accent: #14213D;
+  --hct-text: #FFFFFF;
+}
+
+/* 28. Crimson Hues (warm-dramatic | warm | mode: dark) */
+[data-hct-theme="crimson-hues"] {
+  --hct-swatch-1: #250902;
+  --hct-swatch-2: #38040E;
+  --hct-swatch-3: #640D14;
+  --hct-swatch-4: #800E13;
+  --hct-swatch-5: #AD2831;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #640D14;
+  --hct-accent: #38040E;
+  --hct-text: #250902;
+}
+[data-hct-theme="crimson-hues"][data-hct-mode="dark"] {
+  --hct-bg: #250902;
+  --hct-surface: #38040E;
+  --hct-primary: #38040E;
+  --hct-accent: #640D14;
+  --hct-text: #F4F5F7;
+}
+
+/* 29. Velvet Plum & Rose (luxury-contrast | balanced | mode: both) */
+[data-hct-theme="velvet-plum-rose"] {
+  --hct-swatch-1: #622A8C;
+  --hct-swatch-2: #F2CBE0;
+  --hct-swatch-3: #A61941;
+  --hct-swatch-4: #0B060D;
+  --hct-bg: #F2CBE0;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #0B060D;
+  --hct-accent: #A61941;
+  --hct-text: #0B060D;
+}
+[data-hct-theme="velvet-plum-rose"][data-hct-mode="dark"] {
+  --hct-bg: #0B060D;
+  --hct-surface: #622A8C;
+  --hct-primary: #A61941;
+  --hct-accent: #0B060D;
+  --hct-text: #F2CBE0;
+}
+
+/* 30. Earthy Tones (2) (organic-earthy | warm | mode: both) */
+[data-hct-theme="earthy-tones-2"] {
+  --hct-swatch-1: #F0EAD2;
+  --hct-swatch-2: #DDE5B6;
+  --hct-swatch-3: #ADC178;
+  --hct-swatch-4: #A98467;
+  --hct-swatch-5: #6C584C;
+  --hct-bg: #F0EAD2;
+  --hct-surface: #DDE5B6;
+  --hct-primary: #ADC178;
+  --hct-accent: #A98467;
+  --hct-text: #6C584C;
+}
+[data-hct-theme="earthy-tones-2"][data-hct-mode="dark"] {
+  --hct-bg: #6C584C;
+  --hct-surface: #1C222B;
+  --hct-primary: #A98467;
+  --hct-accent: #ADC178;
+  --hct-text: #F0EAD2;
+}
+
+/* 31. Vivid Nightfall (luxury-contrast | cool | mode: dark) */
+[data-hct-theme="vivid-nightfall"] {
+  --hct-swatch-1: #10002B;
+  --hct-swatch-2: #240046;
+  --hct-swatch-3: #3C096C;
+  --hct-swatch-4: #5A189A;
+  --hct-swatch-5: #7B2CBF;
+  --hct-swatch-6: #9D4EDD;
+  --hct-swatch-7: #C77DFF;
+  --hct-swatch-8: #E0AAFF;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #7B2CBF;
+  --hct-accent: #240046;
+  --hct-text: #10002B;
+}
+[data-hct-theme="vivid-nightfall"][data-hct-mode="dark"] {
+  --hct-bg: #10002B;
+  --hct-surface: #240046;
+  --hct-primary: #240046;
+  --hct-accent: #7B2CBF;
+  --hct-text: #E0AAFF;
+}
+
+/* 32. Bold Berry (warm-dramatic | warm | mode: both) */
+[data-hct-theme="bold-berry"] {
+  --hct-swatch-1: #F9DBBD;
+  --hct-swatch-2: #FFA5AB;
+  --hct-swatch-3: #DA627D;
+  --hct-swatch-4: #A53860;
+  --hct-swatch-5: #450920;
+  --hct-bg: #F9DBBD;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #DA627D;
+  --hct-accent: #A53860;
+  --hct-text: #450920;
+}
+[data-hct-theme="bold-berry"][data-hct-mode="dark"] {
+  --hct-bg: #450920;
+  --hct-surface: #A53860;
+  --hct-primary: #A53860;
+  --hct-accent: #DA627D;
+  --hct-text: #F9DBBD;
+}
+
+/* 33. Autumn Harvest (organic-earthy | warm | mode: both) */
+[data-hct-theme="autumn-harvest"] {
+  --hct-swatch-1: #6F1D1B;
+  --hct-swatch-2: #BB9457;
+  --hct-swatch-3: #432818;
+  --hct-swatch-4: #99582A;
+  --hct-swatch-5: #FFE6A7;
+  --hct-bg: #FFE6A7;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #432818;
+  --hct-accent: #6F1D1B;
+  --hct-text: #432818;
+}
+[data-hct-theme="autumn-harvest"][data-hct-mode="dark"] {
+  --hct-bg: #432818;
+  --hct-surface: #6F1D1B;
+  --hct-primary: #6F1D1B;
+  --hct-accent: #432818;
+  --hct-text: #FFE6A7;
+}
+
+/* 34. Botanical Citrus & Plum (energetic-modern | warm | mode: both) */
+[data-hct-theme="botanical-citrus-plum"] {
+  --hct-swatch-1: #C3F73A;
+  --hct-swatch-2: #95E06C;
+  --hct-swatch-3: #5C9EAD;
+  --hct-swatch-4: #EDAFB8;
+  --hct-swatch-5: #42213D;
+  --hct-bg: #C3F73A;
+  --hct-surface: #95E06C;
+  --hct-primary: #EDAFB8;
+  --hct-accent: #95E06C;
+  --hct-text: #42213D;
+}
+[data-hct-theme="botanical-citrus-plum"][data-hct-mode="dark"] {
+  --hct-bg: #42213D;
+  --hct-surface: #1C222B;
+  --hct-primary: #95E06C;
+  --hct-accent: #EDAFB8;
+  --hct-text: #C3F73A;
+}
+
+/* 35. Golden Twilight (luxury-contrast | warm | mode: both) */
+[data-hct-theme="golden-twilight"] {
+  --hct-swatch-1: #000814;
+  --hct-swatch-2: #001D3D;
+  --hct-swatch-3: #003566;
+  --hct-swatch-4: #FFC300;
+  --hct-swatch-5: #FFD60A;
+  --hct-bg: #FFD60A;
+  --hct-surface: #FFC300;
+  --hct-primary: #003566;
+  --hct-accent: #001D3D;
+  --hct-text: #000814;
+}
+[data-hct-theme="golden-twilight"][data-hct-mode="dark"] {
+  --hct-bg: #000814;
+  --hct-surface: #001D3D;
+  --hct-primary: #001D3D;
+  --hct-accent: #003566;
+  --hct-text: #FFD60A;
+}
+
+/* 36. Pastel Serenity (soft-pastel | balanced | mode: light) */
+[data-hct-theme="pastel-serenity"] {
+  --hct-swatch-1: #E27396;
+  --hct-swatch-2: #EA9AB2;
+  --hct-swatch-3: #EFCFE3;
+  --hct-swatch-4: #EAF2D7;
+  --hct-swatch-5: #B3DEE2;
+  --hct-bg: #EAF2D7;
+  --hct-surface: #EFCFE3;
+  --hct-primary: #EFCFE3;
+  --hct-accent: #EA9AB2;
+  --hct-text: #1A1D21;
+}
+[data-hct-theme="pastel-serenity"][data-hct-mode="dark"] {
+  --hct-bg: #11161D;
+  --hct-surface: #1C222B;
+  --hct-primary: #EA9AB2;
+  --hct-accent: #EFCFE3;
+  --hct-text: #EAF2D7;
+}
+
+/* 37. Soft Lavender (minimal-neutral | balanced | mode: both) */
+[data-hct-theme="soft-lavender"] {
+  --hct-swatch-1: #22223B;
+  --hct-swatch-2: #4A4E69;
+  --hct-swatch-3: #9A8C98;
+  --hct-swatch-4: #C9ADA7;
+  --hct-swatch-5: #F2E9E4;
+  --hct-bg: #F2E9E4;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #9A8C98;
+  --hct-accent: #4A4E69;
+  --hct-text: #22223B;
+}
+[data-hct-theme="soft-lavender"][data-hct-mode="dark"] {
+  --hct-bg: #22223B;
+  --hct-surface: #4A4E69;
+  --hct-primary: #4A4E69;
+  --hct-accent: #9A8C98;
+  --hct-text: #F2E9E4;
+}
+
+/* 38. Earthy Green (organic-earthy | balanced | mode: dark) */
+[data-hct-theme="earthy-green"] {
+  --hct-swatch-1: #CAD2C5;
+  --hct-swatch-2: #84A98C;
+  --hct-swatch-3: #52796F;
+  --hct-swatch-4: #354F52;
+  --hct-swatch-5: #2F3E46;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #52796F;
+  --hct-accent: #354F52;
+  --hct-text: #2F3E46;
+}
+[data-hct-theme="earthy-green"][data-hct-mode="dark"] {
+  --hct-bg: #2F3E46;
+  --hct-surface: #354F52;
+  --hct-primary: #354F52;
+  --hct-accent: #52796F;
+  --hct-text: #CAD2C5;
+}
+
+/* 39. Muted Slate & Stone (minimal-neutral | balanced | mode: dark) */
+[data-hct-theme="muted-slate-stone"] {
+  --hct-swatch-1: #B2AC96;
+  --hct-swatch-2: #242E38;
+  --hct-swatch-3: #97ABB6;
+  --hct-swatch-4: #7E676F;
+  --hct-swatch-5: #4D383F;
+  --hct-swatch-6: #716065;
+  --hct-swatch-7: #4E4E4E;
+  --hct-swatch-8: #AB9D82;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #716065;
+  --hct-accent: #4D383F;
+  --hct-text: #242E38;
+}
+[data-hct-theme="muted-slate-stone"][data-hct-mode="dark"] {
+  --hct-bg: #242E38;
+  --hct-surface: #4D383F;
+  --hct-primary: #4D383F;
+  --hct-accent: #716065;
+  --hct-text: #B2AC96;
+}
+
+/* 40. Tropical Sunrise (energetic-modern | warm | mode: light) */
+[data-hct-theme="tropical-sunrise"] {
+  --hct-swatch-1: #FF9F1C;
+  --hct-swatch-2: #FFBF69;
+  --hct-swatch-3: #FFFFFF;
+  --hct-swatch-4: #CBF3F0;
+  --hct-swatch-5: #2EC4B6;
+  --hct-bg: #FFFFFF;
+  --hct-surface: #CBF3F0;
+  --hct-primary: #CBF3F0;
+  --hct-accent: #FF9F1C;
+  --hct-text: #1A1D21;
+}
+[data-hct-theme="tropical-sunrise"][data-hct-mode="dark"] {
+  --hct-bg: #11161D;
+  --hct-surface: #1C222B;
+  --hct-primary: #FF9F1C;
+  --hct-accent: #CBF3F0;
+  --hct-text: #FFFFFF;
+}
+
+/* 41. Monochrome Beach (minimal-neutral | balanced | mode: both) */
+[data-hct-theme="monochrome-beach"] {
+  --hct-swatch-1: #353535;
+  --hct-swatch-2: #3C6E71;
+  --hct-swatch-3: #FFFFFF;
+  --hct-swatch-4: #D9D9D9;
+  --hct-swatch-5: #284B63;
+  --hct-bg: #FFFFFF;
+  --hct-surface: #D9D9D9;
+  --hct-primary: #3C6E71;
+  --hct-accent: #284B63;
+  --hct-text: #353535;
+}
+[data-hct-theme="monochrome-beach"][data-hct-mode="dark"] {
+  --hct-bg: #353535;
+  --hct-surface: #284B63;
+  --hct-primary: #284B63;
+  --hct-accent: #3C6E71;
+  --hct-text: #FFFFFF;
+}
+
+/* 42. Vintage Charm (minimal-neutral | balanced | mode: both) */
+[data-hct-theme="vintage-charm"] {
+  --hct-swatch-1: #BCABAE;
+  --hct-swatch-2: #0F0F0F;
+  --hct-swatch-3: #2D2E2E;
+  --hct-swatch-4: #716969;
+  --hct-swatch-5: #FBFBFB;
+  --hct-bg: #FBFBFB;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #2D2E2E;
+  --hct-accent: #BCABAE;
+  --hct-text: #0F0F0F;
+}
+[data-hct-theme="vintage-charm"][data-hct-mode="dark"] {
+  --hct-bg: #0F0F0F;
+  --hct-surface: #2D2E2E;
+  --hct-primary: #BCABAE;
+  --hct-accent: #2D2E2E;
+  --hct-text: #FBFBFB;
+}
+
+/* 43. Sunny Beach Day (energetic-modern | warm | mode: dark) */
+[data-hct-theme="sunny-beach-day"] {
+  --hct-swatch-1: #264653;
+  --hct-swatch-2: #2A9D8F;
+  --hct-swatch-3: #E9C46A;
+  --hct-swatch-4: #F4A261;
+  --hct-swatch-5: #E76F51;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #F4A261;
+  --hct-accent: #2A9D8F;
+  --hct-text: #264653;
+}
+[data-hct-theme="sunny-beach-day"][data-hct-mode="dark"] {
+  --hct-bg: #264653;
+  --hct-surface: #1C222B;
+  --hct-primary: #2A9D8F;
+  --hct-accent: #F4A261;
+  --hct-text: #E9C46A;
+}
+
+/* 44. Espresso & Cyan Pop (editorial-bold | balanced | mode: both) */
+[data-hct-theme="espresso-cyan-pop"] {
+  --hct-swatch-1: #350C0C;
+  --hct-swatch-2: #836460;
+  --hct-swatch-3: #D8CFCF;
+  --hct-swatch-4: #FFFFFC;
+  --hct-swatch-5: #23B5D3;
+  --hct-bg: #FFFFFC;
+  --hct-surface: #D8CFCF;
+  --hct-primary: #836460;
+  --hct-accent: #23B5D3;
+  --hct-text: #350C0C;
+}
+[data-hct-theme="espresso-cyan-pop"][data-hct-mode="dark"] {
+  --hct-bg: #350C0C;
+  --hct-surface: #836460;
+  --hct-primary: #23B5D3;
+  --hct-accent: #836460;
+  --hct-text: #FFFFFC;
+}
+
+/* 45. Candy Pop Confetti (soft-pastel | warm | mode: light) */
+[data-hct-theme="candy-pop-confetti"] {
+  --hct-swatch-1: #FF98FF;
+  --hct-swatch-2: #FDD7FC;
+  --hct-swatch-3: #FFBE4F;
+  --hct-swatch-4: #C1BCFF;
+  --hct-swatch-5: #8FF0FF;
+  --hct-swatch-6: #FDFF93;
+  --hct-swatch-7: #C86D46;
+  --hct-swatch-8: #FF9EAB;
+  --hct-bg: #FDFF93;
+  --hct-surface: #FDD7FC;
+  --hct-primary: #8FF0FF;
+  --hct-accent: #FFBE4F;
+  --hct-text: #1A1D21;
+}
+[data-hct-theme="candy-pop-confetti"][data-hct-mode="dark"] {
+  --hct-bg: #11161D;
+  --hct-surface: #1C222B;
+  --hct-primary: #FFBE4F;
+  --hct-accent: #8FF0FF;
+  --hct-text: #FDFF93;
+}
+
+/* 46. Ocean Blue Adventure (oceanic-tech | cool | mode: dark) */
+[data-hct-theme="ocean-blue-adventure"] {
+  --hct-swatch-1: #002029;
+  --hct-swatch-2: #00303D;
+  --hct-swatch-3: #004052;
+  --hct-swatch-4: #005066;
+  --hct-swatch-5: #00607A;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #004052;
+  --hct-accent: #00303D;
+  --hct-text: #002029;
+}
+[data-hct-theme="ocean-blue-adventure"][data-hct-mode="dark"] {
+  --hct-bg: #002029;
+  --hct-surface: #00303D;
+  --hct-primary: #00303D;
+  --hct-accent: #004052;
+  --hct-text: #F4F5F7;
+}
+
+/* 47. Deep Ocean Blue (oceanic-tech | cool | mode: dark) */
+[data-hct-theme="deep-ocean-blue"] {
+  --hct-swatch-1: #006466;
+  --hct-swatch-2: #065A60;
+  --hct-swatch-3: #0B525B;
+  --hct-swatch-4: #144552;
+  --hct-swatch-5: #1B3A4B;
+  --hct-swatch-6: #212F45;
+  --hct-swatch-7: #272640;
+  --hct-swatch-8: #312244;
+  --hct-swatch-9: #3E1F47;
+  --hct-swatch-10: #4D194D;
+  --hct-bg: #FAF9F6;
+  --hct-surface: #FFFFFF;
+  --hct-primary: #272640;
+  --hct-accent: #065A60;
+  --hct-text: #272640;
+}
+[data-hct-theme="deep-ocean-blue"][data-hct-mode="dark"] {
+  --hct-bg: #272640;
+  --hct-surface: #312244;
+  --hct-primary: #065A60;
+  --hct-accent: #272640;
+  --hct-text: #F4F5F7;
+}
+
+/* 48. Blue Gradient (oceanic-tech | cool | mode: both) */
+[data-hct-theme="blue-gradient"] {
+  --hct-swatch-1: #E3F2FD;
+  --hct-swatch-2: #BBDEFB;
+  --hct-swatch-3: #90CAF9;
+  --hct-swatch-4: #64B5F6;
+  --hct-swatch-5: #42A5F5;
+  --hct-swatch-6: #2196F3;
+  --hct-swatch-7: #1E88E5;
+  --hct-swatch-8: #1976D2;
+  --hct-swatch-9: #1565C0;
+  --hct-swatch-10: #0D47A1;
+  --hct-bg: #E3F2FD;
+  --hct-surface: #BBDEFB;
+  --hct-primary: #2196F3;
+  --hct-accent: #1565C0;
+  --hct-text: #0D47A1;
+}
+[data-hct-theme="blue-gradient"][data-hct-mode="dark"] {
+  --hct-bg: #0D47A1;
+  --hct-surface: #1565C0;
+  --hct-primary: #1565C0;
+  --hct-accent: #2196F3;
+  --hct-text: #E3F2FD;
+}

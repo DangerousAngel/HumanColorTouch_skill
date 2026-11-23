@@ -1,0 +1,4748 @@
+{
+  "meta": {
+    "name": "HumanColorTouch Palette Dataset",
+    "version": "1.0.0",
+    "author": "DangerousAngel",
+    "repository": "https://github.com/DangerousAngel/HumanColorTouch_skill",
+    "total_palettes": 48,
+    "source": "Curated human-voted palettes (Coolors explore collection)"
+  },
+  "palettes": [
+    {
+      "id": 1,
+      "slug": "fiery-ocean",
+      "name": "Fiery Ocean",
+      "source_name": "Fiery Ocean",
+      "was_unnamed_in_source": false,
+      "saves": "34.8K",
+      "category": "editorial-bold",
+      "tags": [
+        "editorial",
+        "finance",
+        "bold-brand",
+        "landing-page"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#780000",
+          "rgb": [
+            120,
+            0,
+            0
+          ],
+          "luminance": 0.0399,
+          "is_light": false
+        },
+        {
+          "hex": "#C1121F",
+          "rgb": [
+            193,
+            18,
+            31
+          ],
+          "luminance": 0.1187,
+          "is_light": false
+        },
+        {
+          "hex": "#FDF0D5",
+          "rgb": [
+            253,
+            240,
+            213
+          ],
+          "luminance": 0.8801,
+          "is_light": true
+        },
+        {
+          "hex": "#003049",
+          "rgb": [
+            0,
+            48,
+            73
+          ],
+          "luminance": 0.0259,
+          "is_light": false
+        },
+        {
+          "hex": "#669BBC",
+          "rgb": [
+            102,
+            155,
+            188
+          ],
+          "luminance": 0.299,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FDF0D5",
+          "surface": "#FFFFFF",
+          "primary": "#003049",
+          "accent": "#780000",
+          "text": "#003049",
+          "text_contrast_ratio": 12.25
+        },
+        "dark_mode": {
+          "background": "#003049",
+          "surface": "#780000",
+          "primary": "#780000",
+          "accent": "#003049",
+          "text": "#FDF0D5",
+          "text_contrast_ratio": 12.25
+        }
+      }
+    },
+    {
+      "id": 2,
+      "slug": "olive-garden-feast",
+      "name": "Olive Garden Feast",
+      "source_name": "Olive Garden Feast",
+      "was_unnamed_in_source": false,
+      "saves": "97.3K",
+      "category": "organic-earthy",
+      "tags": [
+        "organic",
+        "wellness",
+        "culinary",
+        "lifestyle",
+        "artisan"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#606C38",
+          "rgb": [
+            96,
+            108,
+            56
+          ],
+          "luminance": 0.135,
+          "is_light": false
+        },
+        {
+          "hex": "#283618",
+          "rgb": [
+            40,
+            54,
+            24
+          ],
+          "luminance": 0.0316,
+          "is_light": false
+        },
+        {
+          "hex": "#FEFAE0",
+          "rgb": [
+            254,
+            250,
+            224
+          ],
+          "luminance": 0.9482,
+          "is_light": true
+        },
+        {
+          "hex": "#DDA15E",
+          "rgb": [
+            221,
+            161,
+            94
+          ],
+          "luminance": 0.4167,
+          "is_light": true
+        },
+        {
+          "hex": "#BC6C25",
+          "rgb": [
+            188,
+            108,
+            37
+          ],
+          "luminance": 0.2155,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FEFAE0",
+          "surface": "#FFFFFF",
+          "primary": "#283618",
+          "accent": "#BC6C25",
+          "text": "#283618",
+          "text_contrast_ratio": 12.24
+        },
+        "dark_mode": {
+          "background": "#283618",
+          "surface": "#606C38",
+          "primary": "#BC6C25",
+          "accent": "#283618",
+          "text": "#FEFAE0",
+          "text_contrast_ratio": 12.24
+        }
+      }
+    },
+    {
+      "id": 3,
+      "slug": "ocean-sunset",
+      "name": "Ocean Sunset",
+      "source_name": "Ocean Sunset",
+      "was_unnamed_in_source": false,
+      "saves": "24.7K",
+      "category": "warm-dramatic",
+      "tags": [
+        "data-viz",
+        "analytics",
+        "storytelling",
+        "travel"
+      ],
+      "color_count": 10,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#001219",
+          "rgb": [
+            0,
+            18,
+            25
+          ],
+          "luminance": 0.005,
+          "is_light": false
+        },
+        {
+          "hex": "#005F73",
+          "rgb": [
+            0,
+            95,
+            115
+          ],
+          "luminance": 0.0942,
+          "is_light": false
+        },
+        {
+          "hex": "#0A9396",
+          "rgb": [
+            10,
+            147,
+            150
+          ],
+          "luminance": 0.2313,
+          "is_light": false
+        },
+        {
+          "hex": "#94D2BD",
+          "rgb": [
+            148,
+            210,
+            189
+          ],
+          "luminance": 0.5606,
+          "is_light": true
+        },
+        {
+          "hex": "#E9D8A6",
+          "rgb": [
+            233,
+            216,
+            166
+          ],
+          "luminance": 0.6919,
+          "is_light": true
+        },
+        {
+          "hex": "#EE9B00",
+          "rgb": [
+            238,
+            155,
+            0
+          ],
+          "luminance": 0.4162,
+          "is_light": true
+        },
+        {
+          "hex": "#CA6702",
+          "rgb": [
+            202,
+            103,
+            2
+          ],
+          "luminance": 0.2226,
+          "is_light": false
+        },
+        {
+          "hex": "#BB3E03",
+          "rgb": [
+            187,
+            62,
+            3
+          ],
+          "luminance": 0.1402,
+          "is_light": false
+        },
+        {
+          "hex": "#AE2012",
+          "rgb": [
+            174,
+            32,
+            18
+          ],
+          "luminance": 0.1008,
+          "is_light": false
+        },
+        {
+          "hex": "#9B2226",
+          "rgb": [
+            155,
+            34,
+            38
+          ],
+          "luminance": 0.0825,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#E9D8A6",
+          "surface": "#94D2BD",
+          "primary": "#CA6702",
+          "accent": "#005F73",
+          "text": "#001219",
+          "text_contrast_ratio": 13.48
+        },
+        "dark_mode": {
+          "background": "#001219",
+          "surface": "#9B2226",
+          "primary": "#005F73",
+          "accent": "#CA6702",
+          "text": "#E9D8A6",
+          "text_contrast_ratio": 13.48
+        }
+      }
+    },
+    {
+      "id": 4,
+      "slug": "ocean-blue-serenity",
+      "name": "Ocean Blue Serenity",
+      "source_name": "Ocean Blue Serenity",
+      "was_unnamed_in_source": false,
+      "saves": "41.2K",
+      "category": "oceanic-tech",
+      "tags": [
+        "saas",
+        "cloud",
+        "fintech",
+        "enterprise",
+        "dashboard"
+      ],
+      "color_count": 9,
+      "temperature": "cool",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#03045E",
+          "rgb": [
+            3,
+            4,
+            94
+          ],
+          "luminance": 0.0091,
+          "is_light": false
+        },
+        {
+          "hex": "#023E8A",
+          "rgb": [
+            2,
+            62,
+            138
+          ],
+          "luminance": 0.0529,
+          "is_light": false
+        },
+        {
+          "hex": "#0077B6",
+          "rgb": [
+            0,
+            119,
+            182
+          ],
+          "luminance": 0.1657,
+          "is_light": false
+        },
+        {
+          "hex": "#0096C7",
+          "rgb": [
+            0,
+            150,
+            199
+          ],
+          "luminance": 0.2594,
+          "is_light": false
+        },
+        {
+          "hex": "#00B4D8",
+          "rgb": [
+            0,
+            180,
+            216
+          ],
+          "luminance": 0.376,
+          "is_light": false
+        },
+        {
+          "hex": "#48CAE4",
+          "rgb": [
+            72,
+            202,
+            228
+          ],
+          "luminance": 0.4922,
+          "is_light": true
+        },
+        {
+          "hex": "#90E0EF",
+          "rgb": [
+            144,
+            224,
+            239
+          ],
+          "luminance": 0.6547,
+          "is_light": true
+        },
+        {
+          "hex": "#ADE8F4",
+          "rgb": [
+            173,
+            232,
+            244
+          ],
+          "luminance": 0.7313,
+          "is_light": true
+        },
+        {
+          "hex": "#CAF0F8",
+          "rgb": [
+            202,
+            240,
+            248
+          ],
+          "luminance": 0.8165,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#CAF0F8",
+          "surface": "#ADE8F4",
+          "primary": "#00B4D8",
+          "accent": "#0077B6",
+          "text": "#03045E",
+          "text_contrast_ratio": 14.65
+        },
+        "dark_mode": {
+          "background": "#03045E",
+          "surface": "#023E8A",
+          "primary": "#0077B6",
+          "accent": "#00B4D8",
+          "text": "#CAF0F8",
+          "text_contrast_ratio": 14.65
+        }
+      }
+    },
+    {
+      "id": 5,
+      "slug": "terracotta-rose-sage",
+      "name": "Terracotta Rose & Sage",
+      "source_name": null,
+      "was_unnamed_in_source": true,
+      "saves": "N/A",
+      "category": "organic-earthy",
+      "tags": [
+        "boutique",
+        "editorial",
+        "interior-design",
+        "portfolio"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#724319",
+          "rgb": [
+            114,
+            67,
+            25
+          ],
+          "luminance": 0.0766,
+          "is_light": false
+        },
+        {
+          "hex": "#D88180",
+          "rgb": [
+            216,
+            129,
+            128
+          ],
+          "luminance": 0.3186,
+          "is_light": false
+        },
+        {
+          "hex": "#F7B1B0",
+          "rgb": [
+            247,
+            177,
+            176
+          ],
+          "luminance": 0.5435,
+          "is_light": true
+        },
+        {
+          "hex": "#FEEAC7",
+          "rgb": [
+            254,
+            234,
+            199
+          ],
+          "luminance": 0.8404,
+          "is_light": true
+        },
+        {
+          "hex": "#CAD182",
+          "rgb": [
+            202,
+            209,
+            130
+          ],
+          "luminance": 0.5977,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FEEAC7",
+          "surface": "#CAD182",
+          "primary": "#F7B1B0",
+          "accent": "#D88180",
+          "text": "#724319",
+          "text_contrast_ratio": 7.03
+        },
+        "dark_mode": {
+          "background": "#724319",
+          "surface": "#1C222B",
+          "primary": "#D88180",
+          "accent": "#F7B1B0",
+          "text": "#FEEAC7",
+          "text_contrast_ratio": 7.03
+        }
+      }
+    },
+    {
+      "id": 6,
+      "slug": "refreshing-summer-fun",
+      "name": "Refreshing Summer Fun",
+      "source_name": "Refreshing Summer Fun",
+      "was_unnamed_in_source": false,
+      "saves": "67.7K",
+      "category": "energetic-modern",
+      "tags": [
+        "consumer-app",
+        "edtech",
+        "marketing",
+        "product-launch"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#8ECAE6",
+          "rgb": [
+            142,
+            202,
+            230
+          ],
+          "luminance": 0.5371,
+          "is_light": true
+        },
+        {
+          "hex": "#219EBC",
+          "rgb": [
+            33,
+            158,
+            188
+          ],
+          "luminance": 0.2841,
+          "is_light": false
+        },
+        {
+          "hex": "#023047",
+          "rgb": [
+            2,
+            48,
+            71
+          ],
+          "luminance": 0.0258,
+          "is_light": false
+        },
+        {
+          "hex": "#FFB703",
+          "rgb": [
+            255,
+            183,
+            3
+          ],
+          "luminance": 0.5513,
+          "is_light": true
+        },
+        {
+          "hex": "#FB8500",
+          "rgb": [
+            251,
+            133,
+            0
+          ],
+          "luminance": 0.3728,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#219EBC",
+          "accent": "#FB8500",
+          "text": "#023047",
+          "text_contrast_ratio": 13.15
+        },
+        "dark_mode": {
+          "background": "#023047",
+          "surface": "#1C222B",
+          "primary": "#FB8500",
+          "accent": "#219EBC",
+          "text": "#FFB703",
+          "text_contrast_ratio": 7.93
+        }
+      }
+    },
+    {
+      "id": 7,
+      "slug": "summer-dream",
+      "name": "Summer Dream",
+      "source_name": "Summer Dream",
+      "was_unnamed_in_source": false,
+      "saves": "28.7K",
+      "category": "energetic-modern",
+      "tags": [
+        "travel",
+        "hospitality",
+        "consumer-web",
+        "social"
+      ],
+      "color_count": 5,
+      "temperature": "balanced",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#0081A7",
+          "rgb": [
+            0,
+            129,
+            167
+          ],
+          "luminance": 0.1849,
+          "is_light": false
+        },
+        {
+          "hex": "#00AFB9",
+          "rgb": [
+            0,
+            175,
+            185
+          ],
+          "luminance": 0.3416,
+          "is_light": false
+        },
+        {
+          "hex": "#FDFCDC",
+          "rgb": [
+            253,
+            252,
+            220
+          ],
+          "luminance": 0.9567,
+          "is_light": true
+        },
+        {
+          "hex": "#FED9B7",
+          "rgb": [
+            254,
+            217,
+            183
+          ],
+          "luminance": 0.7412,
+          "is_light": true
+        },
+        {
+          "hex": "#F07167",
+          "rgb": [
+            240,
+            113,
+            103
+          ],
+          "luminance": 0.3131,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FDFCDC",
+          "surface": "#FED9B7",
+          "primary": "#FED9B7",
+          "accent": "#00AFB9",
+          "text": "#1A1D21",
+          "text_contrast_ratio": 16.22
+        },
+        "dark_mode": {
+          "background": "#11161D",
+          "surface": "#1C222B",
+          "primary": "#00AFB9",
+          "accent": "#FED9B7",
+          "text": "#FDFCDC",
+          "text_contrast_ratio": 17.41
+        }
+      }
+    },
+    {
+      "id": 8,
+      "slug": "meadow-green",
+      "name": "Meadow Green",
+      "source_name": "Meadow Green",
+      "was_unnamed_in_source": false,
+      "saves": "17.4K",
+      "category": "organic-earthy",
+      "tags": [
+        "sustainability",
+        "climate-tech",
+        "health",
+        "data-viz"
+      ],
+      "color_count": 10,
+      "temperature": "cool",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#D9ED92",
+          "rgb": [
+            217,
+            237,
+            146
+          ],
+          "luminance": 0.774,
+          "is_light": true
+        },
+        {
+          "hex": "#B5E48C",
+          "rgb": [
+            181,
+            228,
+            140
+          ],
+          "luminance": 0.672,
+          "is_light": true
+        },
+        {
+          "hex": "#99D98C",
+          "rgb": [
+            153,
+            217,
+            140
+          ],
+          "luminance": 0.5829,
+          "is_light": true
+        },
+        {
+          "hex": "#76C893",
+          "rgb": [
+            118,
+            200,
+            147
+          ],
+          "luminance": 0.4727,
+          "is_light": true
+        },
+        {
+          "hex": "#52B69A",
+          "rgb": [
+            82,
+            182,
+            154
+          ],
+          "luminance": 0.3758,
+          "is_light": false
+        },
+        {
+          "hex": "#34A0A4",
+          "rgb": [
+            52,
+            160,
+            164
+          ],
+          "luminance": 0.2855,
+          "is_light": false
+        },
+        {
+          "hex": "#168AAD",
+          "rgb": [
+            22,
+            138,
+            173
+          ],
+          "luminance": 0.2136,
+          "is_light": false
+        },
+        {
+          "hex": "#1A759F",
+          "rgb": [
+            26,
+            117,
+            159
+          ],
+          "luminance": 0.1545,
+          "is_light": false
+        },
+        {
+          "hex": "#1E6091",
+          "rgb": [
+            30,
+            96,
+            145
+          ],
+          "luminance": 0.1069,
+          "is_light": false
+        },
+        {
+          "hex": "#184E77",
+          "rgb": [
+            24,
+            78,
+            119
+          ],
+          "luminance": 0.0697,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#D9ED92",
+          "surface": "#B5E48C",
+          "primary": "#34A0A4",
+          "accent": "#168AAD",
+          "text": "#184E77",
+          "text_contrast_ratio": 6.88
+        },
+        "dark_mode": {
+          "background": "#184E77",
+          "surface": "#1E6091",
+          "primary": "#168AAD",
+          "accent": "#34A0A4",
+          "text": "#D9ED92",
+          "text_contrast_ratio": 6.88
+        }
+      }
+    },
+    {
+      "id": 9,
+      "slug": "pastel-dreamland-adventure",
+      "name": "Pastel Dreamland Adventure",
+      "source_name": "Pastel Dreamland Adventure",
+      "was_unnamed_in_source": false,
+      "saves": "87.9K",
+      "category": "soft-pastel",
+      "tags": [
+        "creative",
+        "wellness",
+        "youth",
+        "illustration"
+      ],
+      "color_count": 5,
+      "temperature": "balanced",
+      "recommended_mode": "light",
+      "colors": [
+        {
+          "hex": "#CDB4DB",
+          "rgb": [
+            205,
+            180,
+            219
+          ],
+          "luminance": 0.5074,
+          "is_light": true
+        },
+        {
+          "hex": "#FFC8DD",
+          "rgb": [
+            255,
+            200,
+            221
+          ],
+          "luminance": 0.6779,
+          "is_light": true
+        },
+        {
+          "hex": "#FFAFCC",
+          "rgb": [
+            255,
+            175,
+            204
+          ],
+          "luminance": 0.5628,
+          "is_light": true
+        },
+        {
+          "hex": "#BDE0FE",
+          "rgb": [
+            189,
+            224,
+            254
+          ],
+          "luminance": 0.7129,
+          "is_light": true
+        },
+        {
+          "hex": "#A2D2FF",
+          "rgb": [
+            162,
+            210,
+            255
+          ],
+          "luminance": 0.6099,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#BDE0FE",
+          "surface": "#FFC8DD",
+          "primary": "#FFC8DD",
+          "accent": "#A2D2FF",
+          "text": "#1A1D21",
+          "text_contrast_ratio": 12.29
+        },
+        "dark_mode": {
+          "background": "#11161D",
+          "surface": "#1C222B",
+          "primary": "#A2D2FF",
+          "accent": "#FFC8DD",
+          "text": "#BDE0FE",
+          "text_contrast_ratio": 13.19
+        }
+      }
+    },
+    {
+      "id": 10,
+      "slug": "summer-ocean-breeze",
+      "name": "Summer Ocean Breeze",
+      "source_name": "Summer Ocean Breeze",
+      "was_unnamed_in_source": false,
+      "saves": "79K",
+      "category": "editorial-bold",
+      "tags": [
+        "news",
+        "saas",
+        "modern-corporate",
+        "portfolio"
+      ],
+      "color_count": 5,
+      "temperature": "balanced",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#E63946",
+          "rgb": [
+            230,
+            57,
+            70
+          ],
+          "luminance": 0.2019,
+          "is_light": false
+        },
+        {
+          "hex": "#F1FAEE",
+          "rgb": [
+            241,
+            250,
+            238
+          ],
+          "luminance": 0.9325,
+          "is_light": true
+        },
+        {
+          "hex": "#A8DADC",
+          "rgb": [
+            168,
+            218,
+            220
+          ],
+          "luminance": 0.6363,
+          "is_light": true
+        },
+        {
+          "hex": "#457B9D",
+          "rgb": [
+            69,
+            123,
+            157
+          ],
+          "luminance": 0.1787,
+          "is_light": false
+        },
+        {
+          "hex": "#1D3557",
+          "rgb": [
+            29,
+            53,
+            87
+          ],
+          "luminance": 0.035,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#F1FAEE",
+          "surface": "#A8DADC",
+          "primary": "#457B9D",
+          "accent": "#E63946",
+          "text": "#1D3557",
+          "text_contrast_ratio": 11.56
+        },
+        "dark_mode": {
+          "background": "#1D3557",
+          "surface": "#457B9D",
+          "primary": "#E63946",
+          "accent": "#457B9D",
+          "text": "#F1FAEE",
+          "text_contrast_ratio": 11.56
+        }
+      }
+    },
+    {
+      "id": 11,
+      "slug": "dark-sunset",
+      "name": "Dark Sunset",
+      "source_name": "Dark Sunset",
+      "was_unnamed_in_source": false,
+      "saves": "31.3K",
+      "category": "warm-dramatic",
+      "tags": [
+        "luxury",
+        "hospitality",
+        "wine-dining",
+        "editorial"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#335C67",
+          "rgb": [
+            51,
+            92,
+            103
+          ],
+          "luminance": 0.0934,
+          "is_light": false
+        },
+        {
+          "hex": "#FFF3B0",
+          "rgb": [
+            255,
+            243,
+            176
+          ],
+          "luminance": 0.885,
+          "is_light": true
+        },
+        {
+          "hex": "#E09F3E",
+          "rgb": [
+            224,
+            159,
+            62
+          ],
+          "luminance": 0.4099,
+          "is_light": true
+        },
+        {
+          "hex": "#9E2A2B",
+          "rgb": [
+            158,
+            42,
+            43
+          ],
+          "luminance": 0.091,
+          "is_light": false
+        },
+        {
+          "hex": "#540B0E",
+          "rgb": [
+            84,
+            11,
+            14
+          ],
+          "luminance": 0.0216,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FFF3B0",
+          "surface": "#FFFFFF",
+          "primary": "#E09F3E",
+          "accent": "#9E2A2B",
+          "text": "#540B0E",
+          "text_contrast_ratio": 13.07
+        },
+        "dark_mode": {
+          "background": "#540B0E",
+          "surface": "#9E2A2B",
+          "primary": "#9E2A2B",
+          "accent": "#E09F3E",
+          "text": "#FFF3B0",
+          "text_contrast_ratio": 13.07
+        }
+      }
+    },
+    {
+      "id": 12,
+      "slug": "soft-pink-delight",
+      "name": "Soft Pink Delight",
+      "source_name": "Soft Pink Delight",
+      "was_unnamed_in_source": false,
+      "saves": "23.3K",
+      "category": "soft-pastel",
+      "tags": [
+        "beauty",
+        "lifestyle",
+        "fashion",
+        "social"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "light",
+      "colors": [
+        {
+          "hex": "#FFE5EC",
+          "rgb": [
+            255,
+            229,
+            236
+          ],
+          "luminance": 0.8335,
+          "is_light": true
+        },
+        {
+          "hex": "#FFC2D1",
+          "rgb": [
+            255,
+            194,
+            209
+          ],
+          "luminance": 0.6445,
+          "is_light": true
+        },
+        {
+          "hex": "#FFB3C6",
+          "rgb": [
+            255,
+            179,
+            198
+          ],
+          "luminance": 0.5758,
+          "is_light": true
+        },
+        {
+          "hex": "#FF8FAB",
+          "rgb": [
+            255,
+            143,
+            171
+          ],
+          "luminance": 0.4385,
+          "is_light": true
+        },
+        {
+          "hex": "#FB6F92",
+          "rgb": [
+            251,
+            111,
+            146
+          ],
+          "luminance": 0.3395,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FFE5EC",
+          "surface": "#FFC2D1",
+          "primary": "#FFB3C6",
+          "accent": "#FF8FAB",
+          "text": "#1A1D21",
+          "text_contrast_ratio": 14.23
+        },
+        "dark_mode": {
+          "background": "#11161D",
+          "surface": "#1C222B",
+          "primary": "#FF8FAB",
+          "accent": "#FFB3C6",
+          "text": "#FFE5EC",
+          "text_contrast_ratio": 15.28
+        }
+      }
+    },
+    {
+      "id": 13,
+      "slug": "neutral-harmony-bliss",
+      "name": "Neutral Harmony Bliss",
+      "source_name": "Neutral Harmony Bliss",
+      "was_unnamed_in_source": false,
+      "saves": "48.1K",
+      "category": "minimal-neutral",
+      "tags": [
+        "editorial",
+        "productivity",
+        "notes",
+        "architecture"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#F4F1DE",
+          "rgb": [
+            244,
+            241,
+            222
+          ],
+          "luminance": 0.8742,
+          "is_light": true
+        },
+        {
+          "hex": "#E07A5F",
+          "rgb": [
+            224,
+            122,
+            95
+          ],
+          "luminance": 0.3059,
+          "is_light": false
+        },
+        {
+          "hex": "#3D405B",
+          "rgb": [
+            61,
+            64,
+            91
+          ],
+          "luminance": 0.0541,
+          "is_light": false
+        },
+        {
+          "hex": "#81B29A",
+          "rgb": [
+            129,
+            178,
+            154
+          ],
+          "luminance": 0.3884,
+          "is_light": false
+        },
+        {
+          "hex": "#F2CC8F",
+          "rgb": [
+            242,
+            204,
+            143
+          ],
+          "luminance": 0.6405,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#F4F1DE",
+          "surface": "#F2CC8F",
+          "primary": "#81B29A",
+          "accent": "#E07A5F",
+          "text": "#3D405B",
+          "text_contrast_ratio": 8.87
+        },
+        "dark_mode": {
+          "background": "#3D405B",
+          "surface": "#1C222B",
+          "primary": "#E07A5F",
+          "accent": "#81B29A",
+          "text": "#F4F1DE",
+          "text_contrast_ratio": 8.87
+        }
+      }
+    },
+    {
+      "id": 14,
+      "slug": "leafy-green-garden",
+      "name": "Leafy Green Garden",
+      "source_name": "Leafy Green Garden",
+      "was_unnamed_in_source": false,
+      "saves": "17.1K",
+      "category": "organic-earthy",
+      "tags": [
+        "eco",
+        "agriculture",
+        "botanical",
+        "sustainability"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#132A13",
+          "rgb": [
+            19,
+            42,
+            19
+          ],
+          "luminance": 0.0184,
+          "is_light": false
+        },
+        {
+          "hex": "#31572C",
+          "rgb": [
+            49,
+            87,
+            44
+          ],
+          "luminance": 0.0765,
+          "is_light": false
+        },
+        {
+          "hex": "#4F772D",
+          "rgb": [
+            79,
+            119,
+            45
+          ],
+          "luminance": 0.1505,
+          "is_light": false
+        },
+        {
+          "hex": "#90A955",
+          "rgb": [
+            144,
+            169,
+            85
+          ],
+          "luminance": 0.3496,
+          "is_light": false
+        },
+        {
+          "hex": "#ECF39E",
+          "rgb": [
+            236,
+            243,
+            158
+          ],
+          "luminance": 0.844,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#ECF39E",
+          "surface": "#FFFFFF",
+          "primary": "#31572C",
+          "accent": "#4F772D",
+          "text": "#132A13",
+          "text_contrast_ratio": 13.07
+        },
+        "dark_mode": {
+          "background": "#132A13",
+          "surface": "#31572C",
+          "primary": "#4F772D",
+          "accent": "#31572C",
+          "text": "#ECF39E",
+          "text_contrast_ratio": 13.07
+        }
+      }
+    },
+    {
+      "id": 15,
+      "slug": "golden-summer-glow",
+      "name": "Golden Summer Glow",
+      "source_name": "Golden Summer Glow",
+      "was_unnamed_in_source": false,
+      "saves": "15.2K",
+      "category": "energetic-modern",
+      "tags": [
+        "creative-agency",
+        "sports",
+        "events",
+        "marketing"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#0D3B66",
+          "rgb": [
+            13,
+            59,
+            102
+          ],
+          "luminance": 0.0417,
+          "is_light": false
+        },
+        {
+          "hex": "#FAF0CA",
+          "rgb": [
+            250,
+            240,
+            202
+          ],
+          "luminance": 0.8691,
+          "is_light": true
+        },
+        {
+          "hex": "#F4D35E",
+          "rgb": [
+            244,
+            211,
+            94
+          ],
+          "luminance": 0.6663,
+          "is_light": true
+        },
+        {
+          "hex": "#EE964B",
+          "rgb": [
+            238,
+            150,
+            75
+          ],
+          "luminance": 0.405,
+          "is_light": true
+        },
+        {
+          "hex": "#F95738",
+          "rgb": [
+            249,
+            87,
+            56
+          ],
+          "luminance": 0.2724,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF0CA",
+          "surface": "#F4D35E",
+          "primary": "#F4D35E",
+          "accent": "#F95738",
+          "text": "#0D3B66",
+          "text_contrast_ratio": 10.02
+        },
+        "dark_mode": {
+          "background": "#0D3B66",
+          "surface": "#1C222B",
+          "primary": "#F95738",
+          "accent": "#F4D35E",
+          "text": "#FAF0CA",
+          "text_contrast_ratio": 10.02
+        }
+      }
+    },
+    {
+      "id": 16,
+      "slug": "light-steel",
+      "name": "Light Steel",
+      "source_name": "Light Steel",
+      "was_unnamed_in_source": false,
+      "saves": "19.2K",
+      "category": "minimal-neutral",
+      "tags": [
+        "developer-tools",
+        "enterprise",
+        "documentation",
+        "admin-panel"
+      ],
+      "color_count": 9,
+      "temperature": "balanced",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#F8F9FA",
+          "rgb": [
+            248,
+            249,
+            250
+          ],
+          "luminance": 0.9461,
+          "is_light": true
+        },
+        {
+          "hex": "#E9ECEF",
+          "rgb": [
+            233,
+            236,
+            239
+          ],
+          "luminance": 0.8355,
+          "is_light": true
+        },
+        {
+          "hex": "#DEE2E6",
+          "rgb": [
+            222,
+            226,
+            230
+          ],
+          "luminance": 0.7564,
+          "is_light": true
+        },
+        {
+          "hex": "#CED4DA",
+          "rgb": [
+            206,
+            212,
+            218
+          ],
+          "luminance": 0.6527,
+          "is_light": true
+        },
+        {
+          "hex": "#ADB5BD",
+          "rgb": [
+            173,
+            181,
+            189
+          ],
+          "luminance": 0.4561,
+          "is_light": true
+        },
+        {
+          "hex": "#6C757D",
+          "rgb": [
+            108,
+            117,
+            125
+          ],
+          "luminance": 0.1739,
+          "is_light": false
+        },
+        {
+          "hex": "#495057",
+          "rgb": [
+            73,
+            80,
+            87
+          ],
+          "luminance": 0.0784,
+          "is_light": false
+        },
+        {
+          "hex": "#343A40",
+          "rgb": [
+            52,
+            58,
+            64
+          ],
+          "luminance": 0.0413,
+          "is_light": false
+        },
+        {
+          "hex": "#212529",
+          "rgb": [
+            33,
+            37,
+            41
+          ],
+          "luminance": 0.0181,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#F8F9FA",
+          "surface": "#E9ECEF",
+          "primary": "#ADB5BD",
+          "accent": "#343A40",
+          "text": "#212529",
+          "text_contrast_ratio": 14.63
+        },
+        "dark_mode": {
+          "background": "#212529",
+          "surface": "#343A40",
+          "primary": "#343A40",
+          "accent": "#ADB5BD",
+          "text": "#F8F9FA",
+          "text_contrast_ratio": 14.63
+        }
+      }
+    },
+    {
+      "id": 17,
+      "slug": "fresh-greens",
+      "name": "Fresh Greens",
+      "source_name": "Fresh Greens",
+      "was_unnamed_in_source": false,
+      "saves": "23K",
+      "category": "organic-earthy",
+      "tags": [
+        "nutrition",
+        "organic-food",
+        "marketplace",
+        "health"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#386641",
+          "rgb": [
+            56,
+            102,
+            65
+          ],
+          "luminance": 0.1073,
+          "is_light": false
+        },
+        {
+          "hex": "#6A994E",
+          "rgb": [
+            106,
+            153,
+            78
+          ],
+          "luminance": 0.264,
+          "is_light": false
+        },
+        {
+          "hex": "#A7C957",
+          "rgb": [
+            167,
+            201,
+            87
+          ],
+          "luminance": 0.5068,
+          "is_light": true
+        },
+        {
+          "hex": "#F2E8CF",
+          "rgb": [
+            242,
+            232,
+            207
+          ],
+          "luminance": 0.811,
+          "is_light": true
+        },
+        {
+          "hex": "#BC4749",
+          "rgb": [
+            188,
+            71,
+            73
+          ],
+          "luminance": 0.1568,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#F2E8CF",
+          "surface": "#FFFFFF",
+          "primary": "#6A994E",
+          "accent": "#BC4749",
+          "text": "#386641",
+          "text_contrast_ratio": 5.48
+        },
+        "dark_mode": {
+          "background": "#386641",
+          "surface": "#BC4749",
+          "primary": "#BC4749",
+          "accent": "#6A994E",
+          "text": "#F2E8CF",
+          "text_contrast_ratio": 5.48
+        }
+      }
+    },
+    {
+      "id": 18,
+      "slug": "sky-blue-freshness",
+      "name": "Sky Blue Freshness",
+      "source_name": "Sky Blue Freshness",
+      "was_unnamed_in_source": false,
+      "saves": "6,900",
+      "category": "oceanic-tech",
+      "tags": [
+        "clean-tech",
+        "healthcare",
+        "saas",
+        "civic"
+      ],
+      "color_count": 5,
+      "temperature": "balanced",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#05668D",
+          "rgb": [
+            5,
+            102,
+            141
+          ],
+          "luminance": 0.1146,
+          "is_light": false
+        },
+        {
+          "hex": "#427AA1",
+          "rgb": [
+            66,
+            122,
+            161
+          ],
+          "luminance": 0.1765,
+          "is_light": false
+        },
+        {
+          "hex": "#EBF2FA",
+          "rgb": [
+            235,
+            242,
+            250
+          ],
+          "luminance": 0.8807,
+          "is_light": true
+        },
+        {
+          "hex": "#679436",
+          "rgb": [
+            103,
+            148,
+            54
+          ],
+          "luminance": 0.2433,
+          "is_light": false
+        },
+        {
+          "hex": "#A5BE00",
+          "rgb": [
+            165,
+            190,
+            0
+          ],
+          "luminance": 0.4483,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#EBF2FA",
+          "surface": "#FFFFFF",
+          "primary": "#427AA1",
+          "accent": "#A5BE00",
+          "text": "#05668D",
+          "text_contrast_ratio": 5.65
+        },
+        "dark_mode": {
+          "background": "#05668D",
+          "surface": "#427AA1",
+          "primary": "#A5BE00",
+          "accent": "#427AA1",
+          "text": "#EBF2FA",
+          "text_contrast_ratio": 5.65
+        }
+      }
+    },
+    {
+      "id": 19,
+      "slug": "golden-summer-fields",
+      "name": "Golden Summer Fields",
+      "source_name": "Golden Summer Fields",
+      "was_unnamed_in_source": false,
+      "saves": "84.8K",
+      "category": "minimal-neutral",
+      "tags": [
+        "artisan",
+        "minimal-blog",
+        "craft",
+        "bakery"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "light",
+      "colors": [
+        {
+          "hex": "#CCD5AE",
+          "rgb": [
+            204,
+            213,
+            174
+          ],
+          "luminance": 0.6348,
+          "is_light": true
+        },
+        {
+          "hex": "#E9EDC9",
+          "rgb": [
+            233,
+            237,
+            201
+          ],
+          "luminance": 0.8211,
+          "is_light": true
+        },
+        {
+          "hex": "#FEFAE0",
+          "rgb": [
+            254,
+            250,
+            224
+          ],
+          "luminance": 0.9482,
+          "is_light": true
+        },
+        {
+          "hex": "#FAEDCD",
+          "rgb": [
+            250,
+            237,
+            205
+          ],
+          "luminance": 0.853,
+          "is_light": true
+        },
+        {
+          "hex": "#D4A373",
+          "rgb": [
+            212,
+            163,
+            115
+          ],
+          "luminance": 0.4143,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FEFAE0",
+          "surface": "#FAEDCD",
+          "primary": "#FAEDCD",
+          "accent": "#CCD5AE",
+          "text": "#1A1D21",
+          "text_contrast_ratio": 16.08
+        },
+        "dark_mode": {
+          "background": "#11161D",
+          "surface": "#1C222B",
+          "primary": "#CCD5AE",
+          "accent": "#FAEDCD",
+          "text": "#FEFAE0",
+          "text_contrast_ratio": 17.27
+        }
+      }
+    },
+    {
+      "id": 20,
+      "slug": "ocean-sunset-2",
+      "name": "Ocean Sunset (2)",
+      "source_name": "Ocean Sunset",
+      "was_unnamed_in_source": false,
+      "saves": "28.8K",
+      "category": "warm-dramatic",
+      "tags": [
+        "creative-portfolio",
+        "music",
+        "fashion",
+        "podcast"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#355070",
+          "rgb": [
+            53,
+            80,
+            112
+          ],
+          "luminance": 0.0766,
+          "is_light": false
+        },
+        {
+          "hex": "#6D597A",
+          "rgb": [
+            109,
+            89,
+            122
+          ],
+          "luminance": 0.118,
+          "is_light": false
+        },
+        {
+          "hex": "#B56576",
+          "rgb": [
+            181,
+            101,
+            118
+          ],
+          "luminance": 0.2044,
+          "is_light": false
+        },
+        {
+          "hex": "#E56B6F",
+          "rgb": [
+            229,
+            107,
+            111
+          ],
+          "luminance": 0.2832,
+          "is_light": false
+        },
+        {
+          "hex": "#EAAC8B",
+          "rgb": [
+            234,
+            172,
+            139
+          ],
+          "luminance": 0.4886,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#6D597A",
+          "accent": "#E56B6F",
+          "text": "#355070",
+          "text_contrast_ratio": 7.87
+        },
+        "dark_mode": {
+          "background": "#355070",
+          "surface": "#6D597A",
+          "primary": "#E56B6F",
+          "accent": "#6D597A",
+          "text": "#F4F5F7",
+          "text_contrast_ratio": 7.6
+        }
+      }
+    },
+    {
+      "id": 21,
+      "slug": "deep-sea",
+      "name": "Deep Sea",
+      "source_name": "Deep Sea",
+      "was_unnamed_in_source": false,
+      "saves": "27.6K",
+      "category": "oceanic-tech",
+      "tags": [
+        "cybersecurity",
+        "cloud-infra",
+        "developer-dashboard",
+        "dark-ui"
+      ],
+      "color_count": 5,
+      "temperature": "cool",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#0D1B2A",
+          "rgb": [
+            13,
+            27,
+            42
+          ],
+          "luminance": 0.0104,
+          "is_light": false
+        },
+        {
+          "hex": "#1B263B",
+          "rgb": [
+            27,
+            38,
+            59
+          ],
+          "luminance": 0.0194,
+          "is_light": false
+        },
+        {
+          "hex": "#415A77",
+          "rgb": [
+            65,
+            90,
+            119
+          ],
+          "luminance": 0.0977,
+          "is_light": false
+        },
+        {
+          "hex": "#778DA9",
+          "rgb": [
+            119,
+            141,
+            169
+          ],
+          "luminance": 0.2584,
+          "is_light": false
+        },
+        {
+          "hex": "#E0E1DD",
+          "rgb": [
+            224,
+            225,
+            221
+          ],
+          "luminance": 0.7492,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#E0E1DD",
+          "surface": "#FFFFFF",
+          "primary": "#415A77",
+          "accent": "#1B263B",
+          "text": "#0D1B2A",
+          "text_contrast_ratio": 13.24
+        },
+        "dark_mode": {
+          "background": "#0D1B2A",
+          "surface": "#1B263B",
+          "primary": "#1B263B",
+          "accent": "#415A77",
+          "text": "#E0E1DD",
+          "text_contrast_ratio": 13.24
+        }
+      }
+    },
+    {
+      "id": 22,
+      "slug": "soft-sand",
+      "name": "Soft Sand",
+      "source_name": "Soft Sand",
+      "was_unnamed_in_source": false,
+      "saves": "45.6K",
+      "category": "minimal-neutral",
+      "tags": [
+        "architecture",
+        "luxury-minimal",
+        "interior",
+        "skincare"
+      ],
+      "color_count": 5,
+      "temperature": "balanced",
+      "recommended_mode": "light",
+      "colors": [
+        {
+          "hex": "#EDEDE9",
+          "rgb": [
+            237,
+            237,
+            233
+          ],
+          "luminance": 0.8446,
+          "is_light": true
+        },
+        {
+          "hex": "#D6CCC2",
+          "rgb": [
+            214,
+            204,
+            194
+          ],
+          "luminance": 0.6138,
+          "is_light": true
+        },
+        {
+          "hex": "#F5EBE0",
+          "rgb": [
+            245,
+            235,
+            224
+          ],
+          "luminance": 0.8421,
+          "is_light": true
+        },
+        {
+          "hex": "#E3D5CA",
+          "rgb": [
+            227,
+            213,
+            202
+          ],
+          "luminance": 0.6818,
+          "is_light": true
+        },
+        {
+          "hex": "#D5BDAF",
+          "rgb": [
+            213,
+            189,
+            175
+          ],
+          "luminance": 0.5364,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#EDEDE9",
+          "surface": "#F5EBE0",
+          "primary": "#F5EBE0",
+          "accent": "#E3D5CA",
+          "text": "#1A1D21",
+          "text_contrast_ratio": 14.41
+        },
+        "dark_mode": {
+          "background": "#11161D",
+          "surface": "#1C222B",
+          "primary": "#E3D5CA",
+          "accent": "#F5EBE0",
+          "text": "#EDEDE9",
+          "text_contrast_ratio": 15.47
+        }
+      }
+    },
+    {
+      "id": 23,
+      "slug": "warm-neutral-tones",
+      "name": "Warm Neutral Tones",
+      "source_name": "Warm Neutral Tones",
+      "was_unnamed_in_source": false,
+      "saves": "17K",
+      "category": "organic-earthy",
+      "tags": [
+        "outdoor",
+        "heritage-brand",
+        "coffee",
+        "leather-craft"
+      ],
+      "color_count": 10,
+      "temperature": "warm",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#582F0E",
+          "rgb": [
+            88,
+            47,
+            14
+          ],
+          "luminance": 0.0414,
+          "is_light": false
+        },
+        {
+          "hex": "#7F4F24",
+          "rgb": [
+            127,
+            79,
+            36
+          ],
+          "luminance": 0.1023,
+          "is_light": false
+        },
+        {
+          "hex": "#936639",
+          "rgb": [
+            147,
+            102,
+            57
+          ],
+          "luminance": 0.16,
+          "is_light": false
+        },
+        {
+          "hex": "#A68A64",
+          "rgb": [
+            166,
+            138,
+            100
+          ],
+          "luminance": 0.272,
+          "is_light": false
+        },
+        {
+          "hex": "#B6AD90",
+          "rgb": [
+            182,
+            173,
+            144
+          ],
+          "luminance": 0.4185,
+          "is_light": true
+        },
+        {
+          "hex": "#C2C5AA",
+          "rgb": [
+            194,
+            197,
+            170
+          ],
+          "luminance": 0.543,
+          "is_light": true
+        },
+        {
+          "hex": "#A4AC86",
+          "rgb": [
+            164,
+            172,
+            134
+          ],
+          "luminance": 0.3912,
+          "is_light": false
+        },
+        {
+          "hex": "#656D4A",
+          "rgb": [
+            101,
+            109,
+            74
+          ],
+          "luminance": 0.142,
+          "is_light": false
+        },
+        {
+          "hex": "#414833",
+          "rgb": [
+            65,
+            72,
+            51
+          ],
+          "luminance": 0.06,
+          "is_light": false
+        },
+        {
+          "hex": "#333D29",
+          "rgb": [
+            51,
+            61,
+            41
+          ],
+          "luminance": 0.042,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#A4AC86",
+          "accent": "#7F4F24",
+          "text": "#582F0E",
+          "text_contrast_ratio": 10.91
+        },
+        "dark_mode": {
+          "background": "#582F0E",
+          "surface": "#333D29",
+          "primary": "#7F4F24",
+          "accent": "#A4AC86",
+          "text": "#C2C5AA",
+          "text_contrast_ratio": 6.49
+        }
+      }
+    },
+    {
+      "id": 24,
+      "slug": "coastal-blues",
+      "name": "Coastal Blues",
+      "source_name": "Coastal Blues",
+      "was_unnamed_in_source": false,
+      "saves": "12.6K",
+      "category": "oceanic-tech",
+      "tags": [
+        "enterprise-saas",
+        "analytics",
+        "maritime",
+        "data-viz"
+      ],
+      "color_count": 10,
+      "temperature": "cool",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#012A4A",
+          "rgb": [
+            1,
+            42,
+            74
+          ],
+          "luminance": 0.0216,
+          "is_light": false
+        },
+        {
+          "hex": "#013A63",
+          "rgb": [
+            1,
+            58,
+            99
+          ],
+          "luminance": 0.0393,
+          "is_light": false
+        },
+        {
+          "hex": "#01497C",
+          "rgb": [
+            1,
+            73,
+            124
+          ],
+          "luminance": 0.0623,
+          "is_light": false
+        },
+        {
+          "hex": "#014F86",
+          "rgb": [
+            1,
+            79,
+            134
+          ],
+          "luminance": 0.0732,
+          "is_light": false
+        },
+        {
+          "hex": "#2A6F97",
+          "rgb": [
+            42,
+            111,
+            151
+          ],
+          "luminance": 0.141,
+          "is_light": false
+        },
+        {
+          "hex": "#2C7DA0",
+          "rgb": [
+            44,
+            125,
+            160
+          ],
+          "luminance": 0.1774,
+          "is_light": false
+        },
+        {
+          "hex": "#468FAF",
+          "rgb": [
+            70,
+            143,
+            175
+          ],
+          "luminance": 0.2404,
+          "is_light": false
+        },
+        {
+          "hex": "#61A5C2",
+          "rgb": [
+            97,
+            165,
+            194
+          ],
+          "luminance": 0.3335,
+          "is_light": false
+        },
+        {
+          "hex": "#89C2D9",
+          "rgb": [
+            137,
+            194,
+            217
+          ],
+          "luminance": 0.4891,
+          "is_light": true
+        },
+        {
+          "hex": "#A9D6E5",
+          "rgb": [
+            169,
+            214,
+            229
+          ],
+          "luminance": 0.6219,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#2C7DA0",
+          "accent": "#014F86",
+          "text": "#012A4A",
+          "text_contrast_ratio": 13.93
+        },
+        "dark_mode": {
+          "background": "#012A4A",
+          "surface": "#013A63",
+          "primary": "#014F86",
+          "accent": "#2C7DA0",
+          "text": "#A9D6E5",
+          "text_contrast_ratio": 9.39
+        }
+      }
+    },
+    {
+      "id": 25,
+      "slug": "fiery-red-sunset",
+      "name": "Fiery Red Sunset",
+      "source_name": "Fiery Red Sunset",
+      "was_unnamed_in_source": false,
+      "saves": "28.6K",
+      "category": "warm-dramatic",
+      "tags": [
+        "gaming",
+        "heatmaps",
+        "high-energy",
+        "entertainment"
+      ],
+      "color_count": 10,
+      "temperature": "warm",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#03071E",
+          "rgb": [
+            3,
+            7,
+            30
+          ],
+          "luminance": 0.0027,
+          "is_light": false
+        },
+        {
+          "hex": "#370617",
+          "rgb": [
+            55,
+            6,
+            23
+          ],
+          "luminance": 0.01,
+          "is_light": false
+        },
+        {
+          "hex": "#6A040F",
+          "rgb": [
+            106,
+            4,
+            15
+          ],
+          "luminance": 0.0319,
+          "is_light": false
+        },
+        {
+          "hex": "#9D0208",
+          "rgb": [
+            157,
+            2,
+            8
+          ],
+          "luminance": 0.0723,
+          "is_light": false
+        },
+        {
+          "hex": "#D00000",
+          "rgb": [
+            208,
+            0,
+            0
+          ],
+          "luminance": 0.1341,
+          "is_light": false
+        },
+        {
+          "hex": "#DC2F02",
+          "rgb": [
+            220,
+            47,
+            2
+          ],
+          "luminance": 0.1725,
+          "is_light": false
+        },
+        {
+          "hex": "#E85D04",
+          "rgb": [
+            232,
+            93,
+            4
+          ],
+          "luminance": 0.2499,
+          "is_light": false
+        },
+        {
+          "hex": "#F48C06",
+          "rgb": [
+            244,
+            140,
+            6
+          ],
+          "luminance": 0.38,
+          "is_light": false
+        },
+        {
+          "hex": "#FAA307",
+          "rgb": [
+            250,
+            163,
+            7
+          ],
+          "luminance": 0.4653,
+          "is_light": true
+        },
+        {
+          "hex": "#FFBA08",
+          "rgb": [
+            255,
+            186,
+            8
+          ],
+          "luminance": 0.564,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#DC2F02",
+          "accent": "#D00000",
+          "text": "#03071E",
+          "text_contrast_ratio": 18.94
+        },
+        "dark_mode": {
+          "background": "#03071E",
+          "surface": "#370617",
+          "primary": "#D00000",
+          "accent": "#DC2F02",
+          "text": "#FFBA08",
+          "text_contrast_ratio": 11.66
+        }
+      }
+    },
+    {
+      "id": 26,
+      "slug": "earthy-tones",
+      "name": "Earthy Tones",
+      "source_name": "Earthy Tones",
+      "was_unnamed_in_source": false,
+      "saves": "11.8K",
+      "category": "organic-earthy",
+      "tags": [
+        "wellness",
+        "organic-retail",
+        "eco-saas",
+        "editorial"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#2C6E49",
+          "rgb": [
+            44,
+            110,
+            73
+          ],
+          "luminance": 0.1217,
+          "is_light": false
+        },
+        {
+          "hex": "#4C956C",
+          "rgb": [
+            76,
+            149,
+            108
+          ],
+          "luminance": 0.2411,
+          "is_light": false
+        },
+        {
+          "hex": "#FEFEE3",
+          "rgb": [
+            254,
+            254,
+            227
+          ],
+          "luminance": 0.975,
+          "is_light": true
+        },
+        {
+          "hex": "#FFC9B9",
+          "rgb": [
+            255,
+            201,
+            185
+          ],
+          "luminance": 0.6654,
+          "is_light": true
+        },
+        {
+          "hex": "#D68C45",
+          "rgb": [
+            214,
+            140,
+            69
+          ],
+          "luminance": 0.3348,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FEFEE3",
+          "surface": "#FFC9B9",
+          "primary": "#4C956C",
+          "accent": "#D68C45",
+          "text": "#2C6E49",
+          "text_contrast_ratio": 5.97
+        },
+        "dark_mode": {
+          "background": "#11161D",
+          "surface": "#4C956C",
+          "primary": "#D68C45",
+          "accent": "#4C956C",
+          "text": "#FEFEE3",
+          "text_contrast_ratio": 17.73
+        }
+      }
+    },
+    {
+      "id": 27,
+      "slug": "black-gold-elegance",
+      "name": "Black & Gold Elegance",
+      "source_name": "Black & Gold Elegance",
+      "was_unnamed_in_source": false,
+      "saves": "54.4K",
+      "category": "luxury-contrast",
+      "tags": [
+        "luxury",
+        "fintech-premium",
+        "crypto",
+        "executive"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#000000",
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "luminance": 0.0,
+          "is_light": false
+        },
+        {
+          "hex": "#14213D",
+          "rgb": [
+            20,
+            33,
+            61
+          ],
+          "luminance": 0.0157,
+          "is_light": false
+        },
+        {
+          "hex": "#FCA311",
+          "rgb": [
+            252,
+            163,
+            17
+          ],
+          "luminance": 0.4693,
+          "is_light": true
+        },
+        {
+          "hex": "#E5E5E5",
+          "rgb": [
+            229,
+            229,
+            229
+          ],
+          "luminance": 0.7835,
+          "is_light": true
+        },
+        {
+          "hex": "#FFFFFF",
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "luminance": 1.0,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FFFFFF",
+          "surface": "#E5E5E5",
+          "primary": "#14213D",
+          "accent": "#FCA311",
+          "text": "#000000",
+          "text_contrast_ratio": 21.0
+        },
+        "dark_mode": {
+          "background": "#000000",
+          "surface": "#14213D",
+          "primary": "#FCA311",
+          "accent": "#14213D",
+          "text": "#FFFFFF",
+          "text_contrast_ratio": 21.0
+        }
+      }
+    },
+    {
+      "id": 28,
+      "slug": "crimson-hues",
+      "name": "Crimson Hues",
+      "source_name": "Crimson Hues",
+      "was_unnamed_in_source": false,
+      "saves": "10.8K",
+      "category": "warm-dramatic",
+      "tags": [
+        "cinema",
+        "luxury-fashion",
+        "editorial-dark",
+        "automotive"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#250902",
+          "rgb": [
+            37,
+            9,
+            2
+          ],
+          "luminance": 0.0059,
+          "is_light": false
+        },
+        {
+          "hex": "#38040E",
+          "rgb": [
+            56,
+            4,
+            14
+          ],
+          "luminance": 0.0096,
+          "is_light": false
+        },
+        {
+          "hex": "#640D14",
+          "rgb": [
+            100,
+            13,
+            20
+          ],
+          "luminance": 0.0305,
+          "is_light": false
+        },
+        {
+          "hex": "#800E13",
+          "rgb": [
+            128,
+            14,
+            19
+          ],
+          "luminance": 0.0495,
+          "is_light": false
+        },
+        {
+          "hex": "#AD2831",
+          "rgb": [
+            173,
+            40,
+            49
+          ],
+          "luminance": 0.1062,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#640D14",
+          "accent": "#38040E",
+          "text": "#250902",
+          "text_contrast_ratio": 17.83
+        },
+        "dark_mode": {
+          "background": "#250902",
+          "surface": "#38040E",
+          "primary": "#38040E",
+          "accent": "#640D14",
+          "text": "#F4F5F7",
+          "text_contrast_ratio": 17.21
+        }
+      }
+    },
+    {
+      "id": 29,
+      "slug": "velvet-plum-rose",
+      "name": "Velvet Plum & Rose",
+      "source_name": null,
+      "was_unnamed_in_source": true,
+      "saves": "N/A",
+      "category": "luxury-contrast",
+      "tags": [
+        "creative-studio",
+        "music",
+        "nightlife",
+        "fashion"
+      ],
+      "color_count": 4,
+      "temperature": "balanced",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#622A8C",
+          "rgb": [
+            98,
+            42,
+            140
+          ],
+          "luminance": 0.0615,
+          "is_light": false
+        },
+        {
+          "hex": "#F2CBE0",
+          "rgb": [
+            242,
+            203,
+            224
+          ],
+          "luminance": 0.6697,
+          "is_light": true
+        },
+        {
+          "hex": "#A61941",
+          "rgb": [
+            166,
+            25,
+            65
+          ],
+          "luminance": 0.0918,
+          "is_light": false
+        },
+        {
+          "hex": "#0B060D",
+          "rgb": [
+            11,
+            6,
+            13
+          ],
+          "luminance": 0.0023,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#F2CBE0",
+          "surface": "#FFFFFF",
+          "primary": "#0B060D",
+          "accent": "#A61941",
+          "text": "#0B060D",
+          "text_contrast_ratio": 13.76
+        },
+        "dark_mode": {
+          "background": "#0B060D",
+          "surface": "#622A8C",
+          "primary": "#A61941",
+          "accent": "#0B060D",
+          "text": "#F2CBE0",
+          "text_contrast_ratio": 13.76
+        }
+      }
+    },
+    {
+      "id": 30,
+      "slug": "earthy-tones-2",
+      "name": "Earthy Tones (2)",
+      "source_name": "Earthy Tones",
+      "was_unnamed_in_source": false,
+      "saves": "23.3K",
+      "category": "organic-earthy",
+      "tags": [
+        "botanical",
+        "craft",
+        "journal",
+        "sustainability"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#F0EAD2",
+          "rgb": [
+            240,
+            234,
+            210
+          ],
+          "luminance": 0.8202,
+          "is_light": true
+        },
+        {
+          "hex": "#DDE5B6",
+          "rgb": [
+            221,
+            229,
+            182
+          ],
+          "luminance": 0.7479,
+          "is_light": true
+        },
+        {
+          "hex": "#ADC178",
+          "rgb": [
+            173,
+            193,
+            120
+          ],
+          "luminance": 0.4838,
+          "is_light": true
+        },
+        {
+          "hex": "#A98467",
+          "rgb": [
+            169,
+            132,
+            103
+          ],
+          "luminance": 0.2592,
+          "is_light": false
+        },
+        {
+          "hex": "#6C584C",
+          "rgb": [
+            108,
+            88,
+            76
+          ],
+          "luminance": 0.1069,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#F0EAD2",
+          "surface": "#DDE5B6",
+          "primary": "#ADC178",
+          "accent": "#A98467",
+          "text": "#6C584C",
+          "text_contrast_ratio": 5.55
+        },
+        "dark_mode": {
+          "background": "#6C584C",
+          "surface": "#1C222B",
+          "primary": "#A98467",
+          "accent": "#ADC178",
+          "text": "#F0EAD2",
+          "text_contrast_ratio": 5.55
+        }
+      }
+    },
+    {
+      "id": 31,
+      "slug": "vivid-nightfall",
+      "name": "Vivid Nightfall",
+      "source_name": "Vivid Nightfall",
+      "was_unnamed_in_source": false,
+      "saves": "13.9K",
+      "category": "luxury-contrast",
+      "tags": [
+        "gaming",
+        "creative-tech",
+        "music-app",
+        "dark-mode"
+      ],
+      "color_count": 8,
+      "temperature": "cool",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#10002B",
+          "rgb": [
+            16,
+            0,
+            43
+          ],
+          "luminance": 0.0028,
+          "is_light": false
+        },
+        {
+          "hex": "#240046",
+          "rgb": [
+            36,
+            0,
+            70
+          ],
+          "luminance": 0.0082,
+          "is_light": false
+        },
+        {
+          "hex": "#3C096C",
+          "rgb": [
+            60,
+            9,
+            108
+          ],
+          "luminance": 0.0224,
+          "is_light": false
+        },
+        {
+          "hex": "#5A189A",
+          "rgb": [
+            90,
+            24,
+            154
+          ],
+          "luminance": 0.0516,
+          "is_light": false
+        },
+        {
+          "hex": "#7B2CBF",
+          "rgb": [
+            123,
+            44,
+            191
+          ],
+          "luminance": 0.0977,
+          "is_light": false
+        },
+        {
+          "hex": "#9D4EDD",
+          "rgb": [
+            157,
+            78,
+            221
+          ],
+          "luminance": 0.1784,
+          "is_light": false
+        },
+        {
+          "hex": "#C77DFF",
+          "rgb": [
+            199,
+            125,
+            255
+          ],
+          "luminance": 0.3403,
+          "is_light": false
+        },
+        {
+          "hex": "#E0AAFF",
+          "rgb": [
+            224,
+            170,
+            255
+          ],
+          "luminance": 0.5182,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#7B2CBF",
+          "accent": "#240046",
+          "text": "#10002B",
+          "text_contrast_ratio": 18.87
+        },
+        "dark_mode": {
+          "background": "#10002B",
+          "surface": "#240046",
+          "primary": "#240046",
+          "accent": "#7B2CBF",
+          "text": "#E0AAFF",
+          "text_contrast_ratio": 10.75
+        }
+      }
+    },
+    {
+      "id": 32,
+      "slug": "bold-berry",
+      "name": "Bold Berry",
+      "source_name": "Bold Berry",
+      "was_unnamed_in_source": false,
+      "saves": "13.1K",
+      "category": "warm-dramatic",
+      "tags": [
+        "cosmetics",
+        "editorial",
+        "lifestyle",
+        "e-commerce"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#F9DBBD",
+          "rgb": [
+            249,
+            219,
+            189
+          ],
+          "luminance": 0.7448,
+          "is_light": true
+        },
+        {
+          "hex": "#FFA5AB",
+          "rgb": [
+            255,
+            165,
+            171
+          ],
+          "luminance": 0.5111,
+          "is_light": true
+        },
+        {
+          "hex": "#DA627D",
+          "rgb": [
+            218,
+            98,
+            125
+          ],
+          "luminance": 0.2512,
+          "is_light": false
+        },
+        {
+          "hex": "#A53860",
+          "rgb": [
+            165,
+            56,
+            96
+          ],
+          "luminance": 0.1167,
+          "is_light": false
+        },
+        {
+          "hex": "#450920",
+          "rgb": [
+            69,
+            9,
+            32
+          ],
+          "luminance": 0.0156,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#F9DBBD",
+          "surface": "#FFFFFF",
+          "primary": "#DA627D",
+          "accent": "#A53860",
+          "text": "#450920",
+          "text_contrast_ratio": 12.11
+        },
+        "dark_mode": {
+          "background": "#450920",
+          "surface": "#A53860",
+          "primary": "#A53860",
+          "accent": "#DA627D",
+          "text": "#F9DBBD",
+          "text_contrast_ratio": 12.11
+        }
+      }
+    },
+    {
+      "id": 33,
+      "slug": "autumn-harvest",
+      "name": "Autumn Harvest",
+      "source_name": "Autumn Harvest",
+      "was_unnamed_in_source": false,
+      "saves": "22.8K",
+      "category": "organic-earthy",
+      "tags": [
+        "hospitality",
+        "coffee-roaster",
+        "vintage",
+        "publishing"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#6F1D1B",
+          "rgb": [
+            111,
+            29,
+            27
+          ],
+          "luminance": 0.0434,
+          "is_light": false
+        },
+        {
+          "hex": "#BB9457",
+          "rgb": [
+            187,
+            148,
+            87
+          ],
+          "luminance": 0.3243,
+          "is_light": false
+        },
+        {
+          "hex": "#432818",
+          "rgb": [
+            67,
+            40,
+            24
+          ],
+          "luminance": 0.0278,
+          "is_light": false
+        },
+        {
+          "hex": "#99582A",
+          "rgb": [
+            153,
+            88,
+            42
+          ],
+          "luminance": 0.1392,
+          "is_light": false
+        },
+        {
+          "hex": "#FFE6A7",
+          "rgb": [
+            255,
+            230,
+            167
+          ],
+          "luminance": 0.8064,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FFE6A7",
+          "surface": "#FFFFFF",
+          "primary": "#432818",
+          "accent": "#6F1D1B",
+          "text": "#432818",
+          "text_contrast_ratio": 11.01
+        },
+        "dark_mode": {
+          "background": "#432818",
+          "surface": "#6F1D1B",
+          "primary": "#6F1D1B",
+          "accent": "#432818",
+          "text": "#FFE6A7",
+          "text_contrast_ratio": 11.01
+        }
+      }
+    },
+    {
+      "id": 34,
+      "slug": "botanical-citrus-plum",
+      "name": "Botanical Citrus & Plum",
+      "source_name": null,
+      "was_unnamed_in_source": true,
+      "saves": "N/A",
+      "category": "energetic-modern",
+      "tags": [
+        "startup",
+        "creative-agency",
+        "gen-z",
+        "campaigns"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#C3F73A",
+          "rgb": [
+            195,
+            247,
+            58
+          ],
+          "luminance": 0.7843,
+          "is_light": true
+        },
+        {
+          "hex": "#95E06C",
+          "rgb": [
+            149,
+            224,
+            108
+          ],
+          "luminance": 0.6078,
+          "is_light": true
+        },
+        {
+          "hex": "#5C9EAD",
+          "rgb": [
+            92,
+            158,
+            173
+          ],
+          "luminance": 0.2975,
+          "is_light": false
+        },
+        {
+          "hex": "#EDAFB8",
+          "rgb": [
+            237,
+            175,
+            184
+          ],
+          "luminance": 0.5213,
+          "is_light": true
+        },
+        {
+          "hex": "#42213D",
+          "rgb": [
+            66,
+            33,
+            61
+          ],
+          "luminance": 0.0258,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#C3F73A",
+          "surface": "#95E06C",
+          "primary": "#EDAFB8",
+          "accent": "#95E06C",
+          "text": "#42213D",
+          "text_contrast_ratio": 11.0
+        },
+        "dark_mode": {
+          "background": "#42213D",
+          "surface": "#1C222B",
+          "primary": "#95E06C",
+          "accent": "#EDAFB8",
+          "text": "#C3F73A",
+          "text_contrast_ratio": 11.0
+        }
+      }
+    },
+    {
+      "id": 35,
+      "slug": "golden-twilight",
+      "name": "Golden Twilight",
+      "source_name": "Golden Twilight",
+      "was_unnamed_in_source": false,
+      "saves": "24.5K",
+      "category": "luxury-contrast",
+      "tags": [
+        "fintech",
+        "aviation",
+        "executive-dashboard",
+        "dark-ui"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#000814",
+          "rgb": [
+            0,
+            8,
+            20
+          ],
+          "luminance": 0.0022,
+          "is_light": false
+        },
+        {
+          "hex": "#001D3D",
+          "rgb": [
+            0,
+            29,
+            61
+          ],
+          "luminance": 0.0122,
+          "is_light": false
+        },
+        {
+          "hex": "#003566",
+          "rgb": [
+            0,
+            53,
+            102
+          ],
+          "luminance": 0.0351,
+          "is_light": false
+        },
+        {
+          "hex": "#FFC300",
+          "rgb": [
+            255,
+            195,
+            0
+          ],
+          "luminance": 0.6029,
+          "is_light": true
+        },
+        {
+          "hex": "#FFD60A",
+          "rgb": [
+            255,
+            214,
+            10
+          ],
+          "luminance": 0.6938,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FFD60A",
+          "surface": "#FFC300",
+          "primary": "#003566",
+          "accent": "#001D3D",
+          "text": "#000814",
+          "text_contrast_ratio": 14.24
+        },
+        "dark_mode": {
+          "background": "#000814",
+          "surface": "#001D3D",
+          "primary": "#001D3D",
+          "accent": "#003566",
+          "text": "#FFD60A",
+          "text_contrast_ratio": 14.24
+        }
+      }
+    },
+    {
+      "id": 36,
+      "slug": "pastel-serenity",
+      "name": "Pastel Serenity",
+      "source_name": "Pastel Serenity",
+      "was_unnamed_in_source": false,
+      "saves": "7,996",
+      "category": "soft-pastel",
+      "tags": [
+        "calm-app",
+        "baby-care",
+        "creative-blog",
+        "stationery"
+      ],
+      "color_count": 5,
+      "temperature": "balanced",
+      "recommended_mode": "light",
+      "colors": [
+        {
+          "hex": "#E27396",
+          "rgb": [
+            226,
+            115,
+            150
+          ],
+          "luminance": 0.3063,
+          "is_light": false
+        },
+        {
+          "hex": "#EA9AB2",
+          "rgb": [
+            234,
+            154,
+            178
+          ],
+          "luminance": 0.4382,
+          "is_light": true
+        },
+        {
+          "hex": "#EFCFE3",
+          "rgb": [
+            239,
+            207,
+            227
+          ],
+          "luminance": 0.6852,
+          "is_light": true
+        },
+        {
+          "hex": "#EAF2D7",
+          "rgb": [
+            234,
+            242,
+            215
+          ],
+          "luminance": 0.859,
+          "is_light": true
+        },
+        {
+          "hex": "#B3DEE2",
+          "rgb": [
+            179,
+            222,
+            226
+          ],
+          "luminance": 0.6732,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#EAF2D7",
+          "surface": "#EFCFE3",
+          "primary": "#EFCFE3",
+          "accent": "#EA9AB2",
+          "text": "#1A1D21",
+          "text_contrast_ratio": 14.64
+        },
+        "dark_mode": {
+          "background": "#11161D",
+          "surface": "#1C222B",
+          "primary": "#EA9AB2",
+          "accent": "#EFCFE3",
+          "text": "#EAF2D7",
+          "text_contrast_ratio": 15.72
+        }
+      }
+    },
+    {
+      "id": 37,
+      "slug": "soft-lavender",
+      "name": "Soft Lavender",
+      "source_name": "Soft Lavender",
+      "was_unnamed_in_source": false,
+      "saves": "45.5K",
+      "category": "minimal-neutral",
+      "tags": [
+        "saas-modern",
+        "portfolio",
+        "journaling",
+        "design-system"
+      ],
+      "color_count": 5,
+      "temperature": "balanced",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#22223B",
+          "rgb": [
+            34,
+            34,
+            59
+          ],
+          "luminance": 0.018,
+          "is_light": false
+        },
+        {
+          "hex": "#4A4E69",
+          "rgb": [
+            74,
+            78,
+            105
+          ],
+          "luminance": 0.0792,
+          "is_light": false
+        },
+        {
+          "hex": "#9A8C98",
+          "rgb": [
+            154,
+            140,
+            152
+          ],
+          "luminance": 0.2789,
+          "is_light": false
+        },
+        {
+          "hex": "#C9ADA7",
+          "rgb": [
+            201,
+            173,
+            167
+          ],
+          "luminance": 0.4509,
+          "is_light": true
+        },
+        {
+          "hex": "#F2E9E4",
+          "rgb": [
+            242,
+            233,
+            228
+          ],
+          "luminance": 0.8276,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#F2E9E4",
+          "surface": "#FFFFFF",
+          "primary": "#9A8C98",
+          "accent": "#4A4E69",
+          "text": "#22223B",
+          "text_contrast_ratio": 12.91
+        },
+        "dark_mode": {
+          "background": "#22223B",
+          "surface": "#4A4E69",
+          "primary": "#4A4E69",
+          "accent": "#9A8C98",
+          "text": "#F2E9E4",
+          "text_contrast_ratio": 12.91
+        }
+      }
+    },
+    {
+      "id": 38,
+      "slug": "earthy-green",
+      "name": "Earthy Green",
+      "source_name": "Earthy Green",
+      "was_unnamed_in_source": false,
+      "saves": "38.2K",
+      "category": "organic-earthy",
+      "tags": [
+        "fintech-calm",
+        "wellness-app",
+        "dark-minimal",
+        "architecture"
+      ],
+      "color_count": 5,
+      "temperature": "balanced",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#CAD2C5",
+          "rgb": [
+            202,
+            210,
+            197
+          ],
+          "luminance": 0.6268,
+          "is_light": true
+        },
+        {
+          "hex": "#84A98C",
+          "rgb": [
+            132,
+            169,
+            140
+          ],
+          "luminance": 0.3517,
+          "is_light": false
+        },
+        {
+          "hex": "#52796F",
+          "rgb": [
+            82,
+            121,
+            111
+          ],
+          "luminance": 0.1662,
+          "is_light": false
+        },
+        {
+          "hex": "#354F52",
+          "rgb": [
+            53,
+            79,
+            82
+          ],
+          "luminance": 0.0696,
+          "is_light": false
+        },
+        {
+          "hex": "#2F3E46",
+          "rgb": [
+            47,
+            62,
+            70
+          ],
+          "luminance": 0.0449,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#52796F",
+          "accent": "#354F52",
+          "text": "#2F3E46",
+          "text_contrast_ratio": 10.51
+        },
+        "dark_mode": {
+          "background": "#2F3E46",
+          "surface": "#354F52",
+          "primary": "#354F52",
+          "accent": "#52796F",
+          "text": "#CAD2C5",
+          "text_contrast_ratio": 7.13
+        }
+      }
+    },
+    {
+      "id": 39,
+      "slug": "muted-slate-stone",
+      "name": "Muted Slate & Stone",
+      "source_name": null,
+      "was_unnamed_in_source": true,
+      "saves": "N/A",
+      "category": "minimal-neutral",
+      "tags": [
+        "architecture",
+        "industrial-design",
+        "editorial",
+        "museum"
+      ],
+      "color_count": 8,
+      "temperature": "balanced",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#B2AC96",
+          "rgb": [
+            178,
+            172,
+            150
+          ],
+          "luminance": 0.4117,
+          "is_light": true
+        },
+        {
+          "hex": "#242E38",
+          "rgb": [
+            36,
+            46,
+            56
+          ],
+          "luminance": 0.0261,
+          "is_light": false
+        },
+        {
+          "hex": "#97ABB6",
+          "rgb": [
+            151,
+            171,
+            182
+          ],
+          "luminance": 0.3908,
+          "is_light": false
+        },
+        {
+          "hex": "#7E676F",
+          "rgb": [
+            126,
+            103,
+            111
+          ],
+          "luminance": 0.1528,
+          "is_light": false
+        },
+        {
+          "hex": "#4D383F",
+          "rgb": [
+            77,
+            56,
+            63
+          ],
+          "luminance": 0.0477,
+          "is_light": false
+        },
+        {
+          "hex": "#716065",
+          "rgb": [
+            113,
+            96,
+            101
+          ],
+          "luminance": 0.1282,
+          "is_light": false
+        },
+        {
+          "hex": "#4E4E4E",
+          "rgb": [
+            78,
+            78,
+            78
+          ],
+          "luminance": 0.0762,
+          "is_light": false
+        },
+        {
+          "hex": "#AB9D82",
+          "rgb": [
+            171,
+            157,
+            130
+          ],
+          "luminance": 0.3438,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#716065",
+          "accent": "#4D383F",
+          "text": "#242E38",
+          "text_contrast_ratio": 13.1
+        },
+        "dark_mode": {
+          "background": "#242E38",
+          "surface": "#4D383F",
+          "primary": "#4D383F",
+          "accent": "#716065",
+          "text": "#B2AC96",
+          "text_contrast_ratio": 6.06
+        }
+      }
+    },
+    {
+      "id": 40,
+      "slug": "tropical-sunrise",
+      "name": "Tropical Sunrise",
+      "source_name": "Tropical Sunrise",
+      "was_unnamed_in_source": false,
+      "saves": "25.6K",
+      "category": "energetic-modern",
+      "tags": [
+        "travel",
+        "fitness",
+        "food-delivery",
+        "consumer"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "light",
+      "colors": [
+        {
+          "hex": "#FF9F1C",
+          "rgb": [
+            255,
+            159,
+            28
+          ],
+          "luminance": 0.4614,
+          "is_light": true
+        },
+        {
+          "hex": "#FFBF69",
+          "rgb": [
+            255,
+            191,
+            105
+          ],
+          "luminance": 0.5954,
+          "is_light": true
+        },
+        {
+          "hex": "#FFFFFF",
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "luminance": 1.0,
+          "is_light": true
+        },
+        {
+          "hex": "#CBF3F0",
+          "rgb": [
+            203,
+            243,
+            240
+          ],
+          "luminance": 0.8309,
+          "is_light": true
+        },
+        {
+          "hex": "#2EC4B6",
+          "rgb": [
+            46,
+            196,
+            182
+          ],
+          "luminance": 0.4344,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FFFFFF",
+          "surface": "#CBF3F0",
+          "primary": "#CBF3F0",
+          "accent": "#FF9F1C",
+          "text": "#1A1D21",
+          "text_contrast_ratio": 16.91
+        },
+        "dark_mode": {
+          "background": "#11161D",
+          "surface": "#1C222B",
+          "primary": "#FF9F1C",
+          "accent": "#CBF3F0",
+          "text": "#FFFFFF",
+          "text_contrast_ratio": 18.16
+        }
+      }
+    },
+    {
+      "id": 41,
+      "slug": "monochrome-beach",
+      "name": "Monochrome Beach",
+      "source_name": "Monochrome Beach",
+      "was_unnamed_in_source": false,
+      "saves": "23.2K",
+      "category": "minimal-neutral",
+      "tags": [
+        "corporate",
+        "legal",
+        "consulting",
+        "clean-dashboard"
+      ],
+      "color_count": 5,
+      "temperature": "balanced",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#353535",
+          "rgb": [
+            53,
+            53,
+            53
+          ],
+          "luminance": 0.0356,
+          "is_light": false
+        },
+        {
+          "hex": "#3C6E71",
+          "rgb": [
+            60,
+            110,
+            113
+          ],
+          "luminance": 0.133,
+          "is_light": false
+        },
+        {
+          "hex": "#FFFFFF",
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "luminance": 1.0,
+          "is_light": true
+        },
+        {
+          "hex": "#D9D9D9",
+          "rgb": [
+            217,
+            217,
+            217
+          ],
+          "luminance": 0.6939,
+          "is_light": true
+        },
+        {
+          "hex": "#284B63",
+          "rgb": [
+            40,
+            75,
+            99
+          ],
+          "luminance": 0.0638,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FFFFFF",
+          "surface": "#D9D9D9",
+          "primary": "#3C6E71",
+          "accent": "#284B63",
+          "text": "#353535",
+          "text_contrast_ratio": 12.27
+        },
+        "dark_mode": {
+          "background": "#353535",
+          "surface": "#284B63",
+          "primary": "#284B63",
+          "accent": "#3C6E71",
+          "text": "#FFFFFF",
+          "text_contrast_ratio": 12.27
+        }
+      }
+    },
+    {
+      "id": 42,
+      "slug": "vintage-charm",
+      "name": "Vintage Charm",
+      "source_name": "Vintage Charm",
+      "was_unnamed_in_source": false,
+      "saves": "2,860",
+      "category": "minimal-neutral",
+      "tags": [
+        "photography",
+        "monochrome-editorial",
+        "luxury-minimal",
+        "gallery"
+      ],
+      "color_count": 5,
+      "temperature": "balanced",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#BCABAE",
+          "rgb": [
+            188,
+            171,
+            174
+          ],
+          "luminance": 0.4287,
+          "is_light": true
+        },
+        {
+          "hex": "#0F0F0F",
+          "rgb": [
+            15,
+            15,
+            15
+          ],
+          "luminance": 0.0048,
+          "is_light": false
+        },
+        {
+          "hex": "#2D2E2E",
+          "rgb": [
+            45,
+            46,
+            46
+          ],
+          "luminance": 0.0271,
+          "is_light": false
+        },
+        {
+          "hex": "#716969",
+          "rgb": [
+            113,
+            105,
+            105
+          ],
+          "luminance": 0.1463,
+          "is_light": false
+        },
+        {
+          "hex": "#FBFBFB",
+          "rgb": [
+            251,
+            251,
+            251
+          ],
+          "luminance": 0.9647,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FBFBFB",
+          "surface": "#FFFFFF",
+          "primary": "#2D2E2E",
+          "accent": "#BCABAE",
+          "text": "#0F0F0F",
+          "text_contrast_ratio": 18.52
+        },
+        "dark_mode": {
+          "background": "#0F0F0F",
+          "surface": "#2D2E2E",
+          "primary": "#BCABAE",
+          "accent": "#2D2E2E",
+          "text": "#FBFBFB",
+          "text_contrast_ratio": 18.52
+        }
+      }
+    },
+    {
+      "id": 43,
+      "slug": "sunny-beach-day",
+      "name": "Sunny Beach Day",
+      "source_name": "Sunny Beach Day",
+      "was_unnamed_in_source": false,
+      "saves": "124.3K",
+      "category": "energetic-modern",
+      "tags": [
+        "travel",
+        "saas-friendly",
+        "education",
+        "illustrative"
+      ],
+      "color_count": 5,
+      "temperature": "warm",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#264653",
+          "rgb": [
+            38,
+            70,
+            83
+          ],
+          "luminance": 0.0542,
+          "is_light": false
+        },
+        {
+          "hex": "#2A9D8F",
+          "rgb": [
+            42,
+            157,
+            143
+          ],
+          "luminance": 0.2659,
+          "is_light": false
+        },
+        {
+          "hex": "#E9C46A",
+          "rgb": [
+            233,
+            196,
+            106
+          ],
+          "luminance": 0.5784,
+          "is_light": true
+        },
+        {
+          "hex": "#F4A261",
+          "rgb": [
+            244,
+            162,
+            97
+          ],
+          "luminance": 0.4594,
+          "is_light": true
+        },
+        {
+          "hex": "#E76F51",
+          "rgb": [
+            231,
+            111,
+            81
+          ],
+          "luminance": 0.2895,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#F4A261",
+          "accent": "#2A9D8F",
+          "text": "#264653",
+          "text_contrast_ratio": 9.57
+        },
+        "dark_mode": {
+          "background": "#264653",
+          "surface": "#1C222B",
+          "primary": "#2A9D8F",
+          "accent": "#F4A261",
+          "text": "#E9C46A",
+          "text_contrast_ratio": 6.03
+        }
+      }
+    },
+    {
+      "id": 44,
+      "slug": "espresso-cyan-pop",
+      "name": "Espresso & Cyan Pop",
+      "source_name": null,
+      "was_unnamed_in_source": true,
+      "saves": "N/A",
+      "category": "editorial-bold",
+      "tags": [
+        "coffee-tech",
+        "modern-agency",
+        "editorial",
+        "product"
+      ],
+      "color_count": 5,
+      "temperature": "balanced",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#350C0C",
+          "rgb": [
+            53,
+            12,
+            12
+          ],
+          "luminance": 0.0105,
+          "is_light": false
+        },
+        {
+          "hex": "#836460",
+          "rgb": [
+            131,
+            100,
+            96
+          ],
+          "luminance": 0.1478,
+          "is_light": false
+        },
+        {
+          "hex": "#D8CFCF",
+          "rgb": [
+            216,
+            207,
+            207
+          ],
+          "luminance": 0.6373,
+          "is_light": true
+        },
+        {
+          "hex": "#FFFFFC",
+          "rgb": [
+            255,
+            255,
+            252
+          ],
+          "luminance": 0.9981,
+          "is_light": true
+        },
+        {
+          "hex": "#23B5D3",
+          "rgb": [
+            35,
+            181,
+            211
+          ],
+          "luminance": 0.3811,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FFFFFC",
+          "surface": "#D8CFCF",
+          "primary": "#836460",
+          "accent": "#23B5D3",
+          "text": "#350C0C",
+          "text_contrast_ratio": 17.33
+        },
+        "dark_mode": {
+          "background": "#350C0C",
+          "surface": "#836460",
+          "primary": "#23B5D3",
+          "accent": "#836460",
+          "text": "#FFFFFC",
+          "text_contrast_ratio": 17.33
+        }
+      }
+    },
+    {
+      "id": 45,
+      "slug": "candy-pop-confetti",
+      "name": "Candy Pop Confetti",
+      "source_name": null,
+      "was_unnamed_in_source": true,
+      "saves": "2",
+      "category": "soft-pastel",
+      "tags": [
+        "playful-app",
+        "events",
+        "stickers",
+        "social-fun"
+      ],
+      "color_count": 8,
+      "temperature": "warm",
+      "recommended_mode": "light",
+      "colors": [
+        {
+          "hex": "#FF98FF",
+          "rgb": [
+            255,
+            152,
+            255
+          ],
+          "luminance": 0.5094,
+          "is_light": true
+        },
+        {
+          "hex": "#FDD7FC",
+          "rgb": [
+            253,
+            215,
+            252
+          ],
+          "luminance": 0.7651,
+          "is_light": true
+        },
+        {
+          "hex": "#FFBE4F",
+          "rgb": [
+            255,
+            190,
+            79
+          ],
+          "luminance": 0.5865,
+          "is_light": true
+        },
+        {
+          "hex": "#C1BCFF",
+          "rgb": [
+            193,
+            188,
+            255
+          ],
+          "luminance": 0.5452,
+          "is_light": true
+        },
+        {
+          "hex": "#8FF0FF",
+          "rgb": [
+            143,
+            240,
+            255
+          ],
+          "luminance": 0.7538,
+          "is_light": true
+        },
+        {
+          "hex": "#FDFF93",
+          "rgb": [
+            253,
+            255,
+            147
+          ],
+          "luminance": 0.9451,
+          "is_light": true
+        },
+        {
+          "hex": "#C86D46",
+          "rgb": [
+            200,
+            109,
+            70
+          ],
+          "luminance": 0.2366,
+          "is_light": false
+        },
+        {
+          "hex": "#FF9EAB",
+          "rgb": [
+            255,
+            158,
+            171
+          ],
+          "luminance": 0.4865,
+          "is_light": true
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FDFF93",
+          "surface": "#FDD7FC",
+          "primary": "#8FF0FF",
+          "accent": "#FFBE4F",
+          "text": "#1A1D21",
+          "text_contrast_ratio": 16.03
+        },
+        "dark_mode": {
+          "background": "#11161D",
+          "surface": "#1C222B",
+          "primary": "#FFBE4F",
+          "accent": "#8FF0FF",
+          "text": "#FDFF93",
+          "text_contrast_ratio": 17.21
+        }
+      }
+    },
+    {
+      "id": 46,
+      "slug": "ocean-blue-adventure",
+      "name": "Ocean Blue Adventure",
+      "source_name": "Ocean Blue Adventure",
+      "was_unnamed_in_source": false,
+      "saves": "741",
+      "category": "oceanic-tech",
+      "tags": [
+        "dark-dashboard",
+        "devops",
+        "security",
+        "terminal-ui"
+      ],
+      "color_count": 5,
+      "temperature": "cool",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#002029",
+          "rgb": [
+            0,
+            32,
+            41
+          ],
+          "luminance": 0.0119,
+          "is_light": false
+        },
+        {
+          "hex": "#00303D",
+          "rgb": [
+            0,
+            48,
+            61
+          ],
+          "luminance": 0.0245,
+          "is_light": false
+        },
+        {
+          "hex": "#004052",
+          "rgb": [
+            0,
+            64,
+            82
+          ],
+          "luminance": 0.0428,
+          "is_light": false
+        },
+        {
+          "hex": "#005066",
+          "rgb": [
+            0,
+            80,
+            102
+          ],
+          "luminance": 0.067,
+          "is_light": false
+        },
+        {
+          "hex": "#00607A",
+          "rgb": [
+            0,
+            96,
+            122
+          ],
+          "luminance": 0.0977,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#004052",
+          "accent": "#00303D",
+          "text": "#002029",
+          "text_contrast_ratio": 16.1
+        },
+        "dark_mode": {
+          "background": "#002029",
+          "surface": "#00303D",
+          "primary": "#00303D",
+          "accent": "#004052",
+          "text": "#F4F5F7",
+          "text_contrast_ratio": 15.54
+        }
+      }
+    },
+    {
+      "id": 47,
+      "slug": "deep-ocean-blue",
+      "name": "Deep Ocean Blue",
+      "source_name": "Deep Ocean Blue",
+      "was_unnamed_in_source": false,
+      "saves": "14.4K",
+      "category": "oceanic-tech",
+      "tags": [
+        "ai-platform",
+        "dark-analytics",
+        "cloud-console",
+        "space"
+      ],
+      "color_count": 10,
+      "temperature": "cool",
+      "recommended_mode": "dark",
+      "colors": [
+        {
+          "hex": "#006466",
+          "rgb": [
+            0,
+            100,
+            102
+          ],
+          "luminance": 0.1007,
+          "is_light": false
+        },
+        {
+          "hex": "#065A60",
+          "rgb": [
+            6,
+            90,
+            96
+          ],
+          "luminance": 0.082,
+          "is_light": false
+        },
+        {
+          "hex": "#0B525B",
+          "rgb": [
+            11,
+            82,
+            91
+          ],
+          "luminance": 0.0686,
+          "is_light": false
+        },
+        {
+          "hex": "#144552",
+          "rgb": [
+            20,
+            69,
+            82
+          ],
+          "luminance": 0.0501,
+          "is_light": false
+        },
+        {
+          "hex": "#1B3A4B",
+          "rgb": [
+            27,
+            58,
+            75
+          ],
+          "luminance": 0.0377,
+          "is_light": false
+        },
+        {
+          "hex": "#212F45",
+          "rgb": [
+            33,
+            47,
+            69
+          ],
+          "luminance": 0.0279,
+          "is_light": false
+        },
+        {
+          "hex": "#272640",
+          "rgb": [
+            39,
+            38,
+            64
+          ],
+          "luminance": 0.0219,
+          "is_light": false
+        },
+        {
+          "hex": "#312244",
+          "rgb": [
+            49,
+            34,
+            68
+          ],
+          "luminance": 0.0221,
+          "is_light": false
+        },
+        {
+          "hex": "#3E1F47",
+          "rgb": [
+            62,
+            31,
+            71
+          ],
+          "luminance": 0.0246,
+          "is_light": false
+        },
+        {
+          "hex": "#4D194D",
+          "rgb": [
+            77,
+            25,
+            77
+          ],
+          "luminance": 0.0281,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#FAF9F6",
+          "surface": "#FFFFFF",
+          "primary": "#272640",
+          "accent": "#065A60",
+          "text": "#272640",
+          "text_contrast_ratio": 13.87
+        },
+        "dark_mode": {
+          "background": "#272640",
+          "surface": "#312244",
+          "primary": "#065A60",
+          "accent": "#272640",
+          "text": "#F4F5F7",
+          "text_contrast_ratio": 13.39
+        }
+      }
+    },
+    {
+      "id": 48,
+      "slug": "blue-gradient",
+      "name": "Blue Gradient",
+      "source_name": "Blue Gradient",
+      "was_unnamed_in_source": false,
+      "saves": "2,864",
+      "category": "oceanic-tech",
+      "tags": [
+        "material-ui",
+        "enterprise-app",
+        "healthcare",
+        "analytics"
+      ],
+      "color_count": 10,
+      "temperature": "cool",
+      "recommended_mode": "both",
+      "colors": [
+        {
+          "hex": "#E3F2FD",
+          "rgb": [
+            227,
+            242,
+            253
+          ],
+          "luminance": 0.8693,
+          "is_light": true
+        },
+        {
+          "hex": "#BBDEFB",
+          "rgb": [
+            187,
+            222,
+            251
+          ],
+          "luminance": 0.6977,
+          "is_light": true
+        },
+        {
+          "hex": "#90CAF9",
+          "rgb": [
+            144,
+            202,
+            249
+          ],
+          "luminance": 0.5501,
+          "is_light": true
+        },
+        {
+          "hex": "#64B5F6",
+          "rgb": [
+            100,
+            181,
+            246
+          ],
+          "luminance": 0.4241,
+          "is_light": true
+        },
+        {
+          "hex": "#42A5F5",
+          "rgb": [
+            66,
+            165,
+            245
+          ],
+          "luminance": 0.3466,
+          "is_light": false
+        },
+        {
+          "hex": "#2196F3",
+          "rgb": [
+            33,
+            150,
+            243
+          ],
+          "luminance": 0.2861,
+          "is_light": false
+        },
+        {
+          "hex": "#1E88E5",
+          "rgb": [
+            30,
+            136,
+            229
+          ],
+          "luminance": 0.2354,
+          "is_light": false
+        },
+        {
+          "hex": "#1976D2",
+          "rgb": [
+            25,
+            118,
+            210
+          ],
+          "luminance": 0.1782,
+          "is_light": false
+        },
+        {
+          "hex": "#1565C0",
+          "rgb": [
+            21,
+            101,
+            192
+          ],
+          "luminance": 0.1327,
+          "is_light": false
+        },
+        {
+          "hex": "#0D47A1",
+          "rgb": [
+            13,
+            71,
+            161
+          ],
+          "luminance": 0.0717,
+          "is_light": false
+        }
+      ],
+      "semantic_roles": {
+        "light_mode": {
+          "background": "#E3F2FD",
+          "surface": "#BBDEFB",
+          "primary": "#2196F3",
+          "accent": "#1565C0",
+          "text": "#0D47A1",
+          "text_contrast_ratio": 7.56
+        },
+        "dark_mode": {
+          "background": "#0D47A1",
+          "surface": "#1565C0",
+          "primary": "#1565C0",
+          "accent": "#2196F3",
+          "text": "#E3F2FD",
+          "text_contrast_ratio": 7.56
+        }
+      }
+    }
+  ]
+}
